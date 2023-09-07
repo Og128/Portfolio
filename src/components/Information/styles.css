@@ -1,0 +1,33 @@
+.information-broad {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 30px;
+
+    .full-info {
+        display: flex;
+        flex-direction: column;
+
+        .title-full-info {
+            color: rgba(26, 16, 3, 0.50);
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .text-full-info {
+            color: #000;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+
+.split {
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    background: #CDCDCD80;
+    margin-top: 25px;
+}

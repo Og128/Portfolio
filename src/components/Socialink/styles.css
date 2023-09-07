@@ -1,0 +1,13 @@
+.btnlink {
+    width: 65px;
+    height: 60px;
+    border-radius: 8.25px;
+    background: #F2F7FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}
