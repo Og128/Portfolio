@@ -1,0 +1,35 @@
+.mecard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: #FFEBD1;
+    max-width: 440px;
+    min-height: 150px;
+
+    &:nth-of-type(2) {
+        background-color: #F2F7FC;
+    }
+
+    &:nth-of-type(3) {
+        background-color: #F2F7FC;
+    }
+
+
+    .mecard-title {
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .mecard-text {
+        margin: 5px 25px 15px 25px;
+        letter-spacing: 0.5px;
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}

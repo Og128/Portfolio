@@ -12,7 +12,7 @@ function App() {
         <Hero />
         <div className='menu-main'>
         <Menu />
-        <Main title='Home' />
+        <Main />
         </div>
       </div>
     </div>

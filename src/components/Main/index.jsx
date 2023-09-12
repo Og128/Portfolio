@@ -1,5 +1,6 @@
+import Home from '../Home';
+import Resume from '../Resume';
 import './styles.css';
-import Card from '../Card';
 
 function Main(props) {
     return (
@@ -7,10 +8,10 @@ function Main(props) {
             <div className='main-container'>
             <div className='separator'></div>
                 <div className='title-separator'>
-                    <h2 className="section-title">{props.title}</h2>
+                    <h2 className="section-title">Projet</h2>
                 </div>
-                <div className='container-stuff'>
-                    <Card />
+                <div className='global-container'>
+                    <Resume />
                 </div>
             </div>
         </>
