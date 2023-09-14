@@ -1,44 +1,51 @@
-.resumes-titles {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+.resume-main {
+    margin: 0px 72px;
 
-    .resume-title {
+    .resumes-titles {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+
+        .resume-title {
+            color: #000;
+            font-family: Poppins;
+            font-size: 27.737px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0.693px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .resume-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .tags-title {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
+
+    .tag-title {
         color: #000;
         font-family: Poppins;
-        font-size: 27.737px;
-        font-style: normal;
+        font-size: 27px;
         font-weight: 500;
-        letter-spacing: 0.693px;
-        margin-bottom: 30px;
+        letter-spacing: 0.7px;
     }
-}
 
-.resume-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 30px;
-    margin-bottom: 40px;
-}
+    .tags-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
-.work-title{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 20px;
-}
-.work{
-    color: #000;
-    font-family: Poppins;
-    font-size: 27px;
-    font-weight: 500;
-    letter-spacing: 0.7px;
-}
-.work-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    .work-tags{
-        display: flex;
-        gap:20px;
+        .tag {
+            display: flex;
+            gap: 20px;
+        }
     }
 }

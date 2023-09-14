@@ -1,0 +1,41 @@
+.work-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: #FFE3BF;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    width: 410px;
+    height: fit-content;
+
+    .img-background {
+        border-radius: 8px;
+        background-image: url('../../../assets/16557256333819_FR_1155_P3_Banner-Booki.avif');
+        width: 400px;
+        height: 158px;
+        background-repeat: no-repeat;
+        margin: 5px;
+    }
+
+    .work-title-text {
+        display: flex;
+        flex-direction: column;
+        margin-left:10px;
+
+        .work-title {
+            color: rgba(26, 16, 3, 0.50);
+            font-family: Poppins;
+            font-size: 10px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        .work-text {
+            color: #1A1003;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+    }
+}

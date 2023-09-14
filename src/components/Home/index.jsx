@@ -1,9 +1,11 @@
 import Mecard from '../Mecard';
+import Title from '../Title';
 import './styles.css'
 
 function Home (){
     return(
         <>
+        <Title />
         <div className="home-container">
             <p className="home-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 

@@ -1,0 +1,6 @@
+.work-container {
+    margin:0px 72px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
