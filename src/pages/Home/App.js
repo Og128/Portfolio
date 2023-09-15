@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 import Main from '../../components/Main';
 import Menu from '../../components/Menu';
 
-function App() {
+function App(props) {
   return (
     <div>
       <Header />
@@ -12,7 +12,7 @@ function App() {
         <Hero />
         <div className='menu-main'>
         <Menu />
-        <Main />
+        <Main page={props.page}/>
         </div>
       </div>
     </div>
