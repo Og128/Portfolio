@@ -7,6 +7,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Home from './components/Home';
+import Error from './pages/erreur';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/resume" element={<App page={<Resume />} />} />
         <Route path="/work" element={<App page={<Work />} />} />
         <Route path='/contact' element={<App page={<Contact />} />} />
+        <Route path='/*' element={<App page={<Error />} />} />
       </Routes>
     </Router>
   </React.StrictMode>

@@ -7,16 +7,16 @@ import { Link } from 'react-router-dom'
 function Menu() {
     return (
         <div className='menu-container'>
-            <Link to="/" > <Icons
+            <Link to="/" className='link-menu'> <Icons
                 icon={faHouse}
                 title={'Home'} /> </Link>
-            <Link to="/resume"> <Icons
+            <Link to="/resume" className='link-menu'> <Icons
                 icon={faNewspaper}
                 title={'Resume'} /> </Link>
-            <Link to="/work" > <Icons
+            <Link to="/work" className='link-menu'> <Icons
                 icon={faBriefcase}
                 title={'Work'} /> </Link>
-            <Link to="/contact"><Icons
+            <Link to="/contact" className='link-menu'><Icons
                 icon={faAddressBook}
                 title={'Contact'} /> </Link>
         </div>
