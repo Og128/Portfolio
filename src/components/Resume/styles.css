@@ -1,3 +1,5 @@
+@import url('../../styles/variable.css');
+
 .resume-main {
     margin: 0px 72px;
 
@@ -7,7 +9,7 @@
         gap: 30px;
 
         .resume-title {
-            color: #000;
+            color: var(--text-theme);
             font-family: Poppins;
             font-size: 27.737px;
             font-style: normal;
@@ -32,7 +34,7 @@
     }
 
     .tag-title {
-        color: #000;
+        color: var(--text-theme);
         font-family: Poppins;
         font-size: 27px;
         font-weight: 500;

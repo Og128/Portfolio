@@ -14,7 +14,6 @@ function Work() {
                 <div className="work-right">
                     <Workcard />
                     <Workcard />
-                    <Workcard />
                 </div>
             </div>
         </>

@@ -1,8 +1,10 @@
+@import url('../../styles/variable.css');
+
 .btnlink {
     width: 65px;
     height: 60px;
     border-radius: 8.25px;
-    background: #F2F7FC;
+    background: var(--icon-theme);
     display: flex;
     align-items: center;
     justify-content: center;

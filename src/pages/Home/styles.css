@@ -1,17 +1,21 @@
-body{
+@import url('../../styles/variable.css');
+
+.body {
     max-width: 1440px;
     margin: 0 auto;
-    background: #F2F5F9;
+    background-color: var(--bg-theme);
+    padding: 20px 40px;
 }
 
-.container-main{
-    margin-bottom:50px;
+.container-main {
+    margin-bottom: 50px;
     display: flex;
-    .menu-main{
+
+    .menu-main {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         gap: 10px;
     }
-} 
+}

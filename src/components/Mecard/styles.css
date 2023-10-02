@@ -1,23 +1,25 @@
+@import url('../../styles/variable.css');
+
 .mecard-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    background: #FFEBD1;
+    background: var(--card-theme);
     max-width: 440px;
     min-height: 150px;
 
     &:nth-of-type(2) {
-        background-color: #F2F7FC;
+        background-color: var(--card-theme-snd);
     }
 
     &:nth-of-type(3) {
-        background-color: #F2F7FC;
+        background-color: var(--card-theme-snd);
     }
 
 
     .mecard-title {
-        color: #000;
+        color: var(--text-theme);
         font-family: Poppins;
         font-size: 24px;
         font-weight: 600;
@@ -27,7 +29,7 @@
     .mecard-text {
         margin: 5px 25px 15px 25px;
         letter-spacing: 0.5px;
-        color: #000;
+        color: var(--text-theme);
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;

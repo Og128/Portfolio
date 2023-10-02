@@ -1,3 +1,5 @@
+@import url('../../styles/variable.css');
+
 .navigation-bar {
     margin: 30px 0 40px 0;
     display: flex;
@@ -8,18 +10,50 @@
         font-family: 'Lato', sans-serif;
         font-size: 30px;
         margin-left: 60px;
+        color:var(--text-theme);
     }
 
-    .dark-light {
+    .btn-lang-dark {
         display: flex;
-        width: 56px;
-        height: 56px;
-        padding: 4px;
-        justify-content: center;
         align-items: center;
-        flex-shrink: 0;
-        border-radius: 50px;
-        background: #EBF2FA;
-        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+        gap: 30px;
+        margin-right:50px;
+
+        .btn-lang {
+            font-size: 12px;
+            display: flex;
+            width: 56px;
+            height: 56px;
+            padding: 4px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 50px;
+            background: var(--icon-theme);
+            box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+            &:hover{
+                cursor: pointer;
+            }
+            .fr{
+                font-weight: 800;
+                color:red;
+            }
+        }
+
+        .dark-light {
+            display: flex;
+            width: 56px;
+            height: 56px;
+            padding: 4px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 50px;
+            background:var(--icon-theme);
+            box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+            &:hover{
+                cursor: pointer;
+            }
+        }
     }
 }

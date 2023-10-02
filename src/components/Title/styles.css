@@ -1,8 +1,10 @@
+@import url('../../styles/variable.css');
+
 .title-separator {
     display: flex;
 
     .section-title {
-        color: #0b0909;
+        color: var(--text-theme);
         font-size: 40px;
         font-weight: bold;
         font-family: 'Poppins', sans-serif;

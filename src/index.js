@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './index.css';
+import './styles/index.css';
+import './styles/variable.css'
 import App from '../src/pages/Home/App';
 import Work from './components/Work';
 import Contact from './components/Contact';

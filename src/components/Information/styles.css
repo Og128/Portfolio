@@ -1,3 +1,5 @@
+@import url('../../styles/variable.css');
+
 .information-broad {
     margin-top: 25px;
     display: flex;
@@ -10,14 +12,14 @@
         flex-direction: column;
 
         .title-full-info {
-            color: rgba(26, 16, 3, 0.50);
+            color: var(--info-theme);
             font-size: 14px;
             font-weight: 600;
             margin-bottom: 5px;
         }
 
         .text-full-info {
-            color: #000;
+            color: var(--text-theme);
             font-size: 14px;
             font-weight: 600;
         }

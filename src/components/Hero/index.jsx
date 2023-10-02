@@ -4,11 +4,13 @@ import { faLocationDot, faMobileScreen, faEnvelope, faDownload } from '@fortawes
 import { faFacebookF, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Socialink from '../Socialink';
+import Portrait from '../../assets/PortraitOlivier.jpg';
 
 function Hero() {
     return (
         <div className="container-hero">
             <div className='portrait'>
+                <img src={Portrait} alt="Portrait d'Olivier Gautheron"/>
             </div>
             <div className="info-me">
                 <p className='me-name'>Olivier Gautheron</p>

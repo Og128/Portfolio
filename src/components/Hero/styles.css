@@ -1,3 +1,5 @@
+@import url('../../styles/variable.css');
+
 .container-hero {
     display: flex;
     flex-direction: column;
@@ -8,11 +10,15 @@
         position: absolute;
         width: 200px;
         height: 200px;
-        background-color: red;
-        opacity: 0.5;
         left: 90px;
         border-radius: 20px;
         box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+        & img{
+            width: inherit;
+            height: inherit;
+            image-rendering: optimizeSpeed;
+            border-radius: 20px;
+        }
     }
 
     .info-me {
@@ -20,14 +26,14 @@
         flex-direction: column;
         align-items: center;
         border-radius: 20px;
-        background: #FFF;
+        background: var(--bg-comp-theme);
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
         margin-top: 110px;
         padding-top: 90px;
         padding-bottom: 102.5px;
 
         .me-name {
-            color: #0B0909;
+            color: var(--text-theme);
             font-family: Raleway;
             font-size: 28.42px;
             font-style: normal;
@@ -37,7 +43,7 @@
         }
 
         .work-title {
-            color: rgba(11, 9, 9, 0.50);
+            color: var(--text-work-title-theme);
             font-family: Raleway;
             font-size: 16px;
             font-style: normal;
@@ -57,7 +63,7 @@
             flex-direction: column;
             align-items: center;
             border-radius: 20px;
-            background: #F2F5F9;
+            background: var(--bg-dark);
             width: 90%;
             margin-top: 25px;
 

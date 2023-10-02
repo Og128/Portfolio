@@ -1,26 +1,28 @@
+@import url('../../styles/variable.css');
+
 .recard-container {
     border-radius: 9.246px;
-    background: #FFE3BF;
+    background: var(--card-theme);
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 
     .xp-date {
-        color: rgba(26, 16, 3, 0.50);
+        color: var(--text-work-title-theme);
         font-size: 14px;
         font-weight: 400;
         margin-top:15px;
     }
 
     .xp-title {
-        color: #000;
+        color: var(--text-theme);
         font-size: 14px;
         font-weight: 600;
     }
 
     .xp-desc {
-        color: #000;
+        color:var(--text-theme);
         font-size: 14px;
         font-weight: 500;
         margin-bottom: 15px;
