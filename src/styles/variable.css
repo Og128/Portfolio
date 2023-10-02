@@ -21,7 +21,7 @@
 }
 
 @media (prefers-color-scheme: light) {
- body {
+:root {
     --bg-theme: #F2F5F9;
     --bg-comp-theme: #FFF;
     --text-theme: #000;
@@ -34,7 +34,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  :root {
     --bg-theme: #0f1c28;
     --bg-comp-theme: #000000;
     --text-theme: #fff;

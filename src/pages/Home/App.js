@@ -13,7 +13,8 @@ function App(props) {
     setTheme(newTheme);
   };
   return (
-      <div className="body" data-theme={theme}>
+    <div data-theme={theme}>
+      <div className='fullweb'>
         <Header onToggle={handleThemeToggle} />
         <div className='container-main'>
           <Hero />
@@ -23,6 +24,7 @@ function App(props) {
           </div>
         </div>
       </div>
+    </div>
   );
 }
 

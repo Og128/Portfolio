@@ -1,10 +1,11 @@
 @import url('../../styles/variable.css');
 
 .navigation-bar {
-    margin: 30px 0 40px 0;
+    margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
 
     .logo {
         font-family: 'Lato', sans-serif;

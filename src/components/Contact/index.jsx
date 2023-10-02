@@ -14,7 +14,6 @@ function Contact() {
                 <div className="contact-form">
                     <p className="contact-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, neque. Harum ratione voluptatum atque pariatur suscipit repellendus explicabo. Dolore, repudiandae quos ducimus repellendus quae eaque odio vitae itaque placeat nobis.</p>
                     <form className="form" action="mailto:shosets@gmail.com" method="post">
-
                         <div className="name">
                             <label for="name">Name:</label>
                             <input type="text" id="name" name="name" required />

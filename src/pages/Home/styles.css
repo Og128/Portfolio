@@ -1,14 +1,18 @@
 @import url('../../styles/variable.css');
 
-.body {
-    max-width: 1440px;
-    margin: 0 auto;
+
+[data-theme] {
     background-color: var(--bg-theme);
-    padding: 20px 40px;
+    transition: all 0.5s
+}
+
+.fullweb {
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .container-main {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     display: flex;
 
     .menu-main {
