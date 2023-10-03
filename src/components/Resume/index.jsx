@@ -6,15 +6,17 @@ import './styles.css'
 
 function Resume() {
 
-    const {t} = useTranslation(['transResumEN', 'transResumFR'])
+    const { t, i18n } = useTranslation();
+    const currentNamespace =
+        i18n.language === 'en' ? 'transResumEN' : 'transResumFR';
 
     return (
         <>
             <Title props={'résume'} />
             <div className="resume-main">
                 <div className='resumes-titles'>
-                    <h3 className='resume-title'>{t(`resume.title1`)}</h3>
-                    <h3 className='resume-title'>{t(`resume.title2`)}</h3>
+                    <h3 className='resume-title'>{t(`${currentNamespace}:resume.title1`)}</h3>
+                    <h3 className='resume-title'>{t(`${currentNamespace}:resume.title2`)}</h3>
                 </div>
                 <div className='resume-container'>
                     <Recard props={'card1'} />
@@ -24,8 +26,8 @@ function Resume() {
                 </div>
 
                 <div className='tags-title'>
-                    <h3 className='tag-title'>{t(`resume.skill.title1`)}</h3>
-                    <h3 className='tag-title'>{t(`resume.skill.title2`)}</h3>
+                    <h3 className='tag-title'>{t(`${currentNamespace}:resume.skill.title1`)}</h3>
+                    <h3 className='tag-title'>{t(`${currentNamespace}:resume.skill.title2`)}</h3>
                 </div>
                 <div className='tags-container'>
                     <div className='tag'>

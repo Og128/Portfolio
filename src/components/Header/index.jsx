@@ -2,6 +2,7 @@ import './styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import React, { useState } from "react";
+import LanguageToggle from '../Language';
 
 export default function Header({ onToggle }) {
 
@@ -14,12 +15,11 @@ export default function Header({ onToggle }) {
         onToggle(newTheme);
     };
 
-
     return (
         <header className="navigation-bar">
             <div className='logo'>Olivier GAUTHERON</div>
             <div className='btn-lang-dark'>
-                <div className="btn-lang"><span className='fr'>FR</span>/<span className='eng'>ENG</span></div>
+                <LanguageToggle />
                 <div className="dark-light"
                     onClick={switchTheme}>
                     <FontAwesomeIcon icon={faMoon} size="lg" />

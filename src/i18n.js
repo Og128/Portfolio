@@ -9,33 +9,38 @@ import projetEN from './locales/en/projet.json'
 import resumeEN from './locales/en/resume.json'
 import textEN from './locales/en/text.json'
 
-const resources = {
-    en:{
-        transResumEN:resumeEN,
-        transTextEN:textEN,
-        transProjetEN:projetEN
-    },
-    fr:{
-        transResumFR:resumeFR,
-        transTextFR:textFR,
-        transProjetFR:projetFR
-    }
-}
 
-
-i18n
-    .use(Backend)
-    .use(initReactI18next)
-    .use(LanguageDetector)
-    .init({
-        resources,
-        ns:['transResumFR', 'transResumEN','transTextFR', 'transTextEN','transProjetFR', 'transProjetEN' ],
-        lng:"en",
-        fallbackLng: "en",
-        debug: true,
-        interpolation: {
-            escapeValue: false
+const initI18n = (initialLanguage) => {
+    const resources = {
+        en: {
+            transResumEN: resumeEN,
+            transTextEN: textEN,
+            transProjetEN: projetEN
+        },
+        fr: {
+            transResumFR: resumeFR,
+            transTextFR: textFR,
+            transProjetFR: projetFR
         }
-    });
+    }
+
+
+    i18n
+        .use(Backend)
+        .use(initReactI18next)
+        .use(LanguageDetector)
+        .init({
+            resources,
+            ns: ['transResumFR', 'transResumEN', 'transTextFR', 'transTextEN', 'transProjetFR', 'transProjetEN'],
+            lng: initialLanguage,
+            fallbackLng: "fr",
+            debug: true,
+            interpolation: {
+                escapeValue: false
+            }
+        });
+    // return i18n;
+}
+export {initI18n};
 
 export default i18n;

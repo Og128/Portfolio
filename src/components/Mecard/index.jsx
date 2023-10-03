@@ -4,13 +4,15 @@ import { useTranslation } from 'react-i18next';
 
 function Mecard(props) {
 
-  const { t } = useTranslation(['transTextEN', 'transTextFR']);
+  const { t, i18n } = useTranslation();
+  const currentNamespace =
+      i18n.language === 'en' ? 'transTextEN' : 'transTextFR';
 
   return (
     <>
     <div className='mecard-container'>
-        <h4 className='mecard-title'>{t(`accueil.cards.${props.props}.titlecard`)}</h4>
-        <p className='mecard-text'>{t(`accueil.cards.${props.props}.textcard`)}</p>
+        <h4 className='mecard-title'>{t(`${currentNamespace}:accueil.cards.${props.props}.titlecard`)}</h4>
+        <p className='mecard-text'>{t(`${currentNamespace}:accueil.cards.${props.props}.textcard`)}</p>
     </div>
     </>
   )
