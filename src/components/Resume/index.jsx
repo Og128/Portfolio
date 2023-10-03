@@ -1,20 +1,20 @@
+import { useTranslation } from 'react-i18next';
 import Recard from '../Recard';
 import Tags from '../Tags';
 import Title from '../Title';
 import './styles.css'
-import data from '../../locales/fr/resume.json'
 
 function Resume() {
 
-    // const resumeData = data.resume.skill[props.props]
+    const {t} = useTranslation(['transResumEN', 'transResumFR'])
 
     return (
         <>
             <Title props={'résume'} />
             <div className="resume-main">
                 <div className='resumes-titles'>
-                    <h3 className='resume-title'>{data.resume.title1}</h3>
-                    <h3 className='resume-title'>{data.resume.title2}</h3>
+                    <h3 className='resume-title'>{t(`resume.title1`)}</h3>
+                    <h3 className='resume-title'>{t(`resume.title2`)}</h3>
                 </div>
                 <div className='resume-container'>
                     <Recard props={'card1'} />
@@ -24,8 +24,8 @@ function Resume() {
                 </div>
 
                 <div className='tags-title'>
-                    <h3 className='tag-title'>{data.resume.skill.title1}</h3>
-                    <h3 className='tag-title'>{data.resume.skill.title2}</h3>
+                    <h3 className='tag-title'>{t(`resume.skill.title1`)}</h3>
+                    <h3 className='tag-title'>{t(`resume.skill.title2`)}</h3>
                 </div>
                 <div className='tags-container'>
                     <div className='tag'>

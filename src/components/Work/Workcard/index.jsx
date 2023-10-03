@@ -1,21 +1,21 @@
 import './styles.css'
-import data from '../../../locales/fr/projet.json'
+import { useTranslation } from 'react-i18next'
 
 
 function Workcard(props) {
 
-    const projetData = data.project.projects[props.projet]
+    const {t} = useTranslation(['transProjetEN', 'transProjetFR'])
 
     return (
         <>
                 <div className='work-card'>
-                    <div className="img-background"><img src={projetData.cover} alt={projetData.title}></img></div>
+                    <div className="img-background"><img src={t(`project.projects.${props.projet}.cover`)} alt={t(`project.projects.${props.projet}.title`)}></img></div>
                     <div className="work-title-text">
                         <h6 className="work-title">
-                            {projetData.text}
+                        {t(`project.projects.${props.projet}.text`)}
                         </h6>
                         <p className="work-text">
-                            {projetData.title}
+                        {t(`project.projects.${props.projet}.title`)}
                         </p>
                     </div>
                 </div>

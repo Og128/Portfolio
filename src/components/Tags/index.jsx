@@ -1,14 +1,14 @@
 import React from 'react'
 import './styles.css'
-import data from '../../locales/fr/resume.json'
+import { useTranslation } from 'react-i18next'
 
 function Tags(props) {
 
-  const resumeData = data.resume.skill.lists[props.texte]
+  const {t} = useTranslation(['transResumEN', 'transResumFR'])
   
   return (
     <div className='tags'>
-        {resumeData}
+        {t(`resume.skill.lists.${props.texte}`)}
     </div>
   )
 }

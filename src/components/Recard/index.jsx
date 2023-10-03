@@ -1,15 +1,15 @@
 import React from 'react'
 import './styles.css'
-import data from '../../locales/fr/resume.json'
+import { useTranslation } from 'react-i18next'
 
 function Recard(props) {
 
-    const resumeData = data.resume.cards[props.props]
+    const {t} = useTranslation(['transResumEN', 'transResumFR'])
     return (
         <div className='recard-container'>    
-        <div className='xp-date'>{resumeData.year}</div>
-            <div className='xp-title'>{resumeData.titlecard}</div>
-            <div className='xp-desc'>{resumeData.textcard}</div>
+        <div className='xp-date'>{t(`resume.cards.${props.props}.year`)}</div>
+            <div className='xp-title'>{t(`resume.cards.${props.props}.titlecard`)}</div>
+            <div className='xp-desc'>{t(`resume.cards.${props.props}.textcard`)}</div>
         </div>
     )
 }

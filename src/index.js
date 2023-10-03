@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Home from './components/Home';
 import Error from './pages/erreur';
+import './i18n.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

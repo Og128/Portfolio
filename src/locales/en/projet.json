@@ -1,0 +1,27 @@
+{
+    "project":{
+        "title":"Project",
+        "projects":{
+            "project1":{
+                "title":"ReactJs",
+                "cover":"https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "text":"Creation of a real estate rental web application with React and Sass"
+            },
+            "project2":{
+                "title":"NodeJs",
+                "cover":"https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
+                "text":"Development of the back-end of a book rating site"
+            },
+            "project3":{
+                "title":"Méthode Agile, Kanban",
+                "cover":"https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
+                "text":"Planning the development of a website for a client"
+            },
+            "project4":{
+                "title":"Still no idea",
+                "cover":"../../assets/PortraitOlivier.jpg",
+                "text":"Absolute no idea to what to put here so I just write something as a placeholder to not put Lorem everywhere"
+            }
+        }
+    }
+}
