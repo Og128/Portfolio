@@ -8,8 +8,8 @@ function Contact() {
             <Title />
             <div className="contact-container">
                 <div className="info">
-                    <Mecard />
-                    <Mecard />
+                    <Mecard props={'card5'} />
+                    <Mecard props={'card6'} />
                 </div>
                 <div className="contact-form">
                     <p className="contact-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, neque. Harum ratione voluptatum atque pariatur suscipit repellendus explicabo. Dolore, repudiandae quos ducimus repellendus quae eaque odio vitae itaque placeat nobis.</p>

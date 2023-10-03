@@ -1,0 +1,27 @@
+{
+    "project":{
+        "title":"Projet",
+        "projects":{
+            "project1":{
+                "title":"ReactJs",
+                "cover":"https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "text":"Création d'une application web de location immobilière avec React et Sass"
+            },
+            "project2":{
+                "title":"NodeJs",
+                "cover":"https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
+                "text":"Développement du back-end d'un site de notation de livres"
+            },
+            "project3":{
+                "title":"Méthode Agile, Kanban",
+                "cover":"https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
+                "text":"Planification du développement d'un site web pour un client"
+            },
+            "project4":{
+                "title":"Aucune idée",
+                "cover":"../../assets/PortraitOlivier.jpg",
+                "text":"Pour l'instant je n'ai pas d'idée de quoi mettre ici hihi hou hou"
+            }
+        }
+    }
+}

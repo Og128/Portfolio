@@ -1,12 +1,15 @@
 import React from 'react'
 import './styles.css'
+import data from '../../locales/fr/resume.json'
 
-function Recard() {
+function Recard(props) {
+
+    const resumeData = data.resume.cards[props.props]
     return (
         <div className='recard-container'>    
-        <div className='xp-date'>2020-2020</div>
-            <div className='xp-title'>Bonjour</div>
-            <div className='xp-desc'>Université</div>
+        <div className='xp-date'>{resumeData.year}</div>
+            <div className='xp-title'>{resumeData.titlecard}</div>
+            <div className='xp-desc'>{resumeData.textcard}</div>
         </div>
     )
 }

@@ -6,9 +6,8 @@
     flex-direction: column;
 
     .info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin-bottom: 25px;
     }
 

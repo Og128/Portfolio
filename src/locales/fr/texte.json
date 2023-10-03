@@ -1,0 +1,33 @@
+{
+    "accueil": {
+        "title": "Accueil",
+        "text": "Bonjour ! Je suis enchanté que vous parcouriez mon portfolio. Je suis un nouveau développeur ayant tout juste fini ma formation de développeur web Full-Stack avec l'école OpenClassRoom. Passionné par les ordinateurs et les avancées technologiques depuis mon plus jeune âge, je me lance enfin dans le monde du développement. Mon aventure dans ce monde n'a été pour le moment que de bonnes choses, et je l'espère, va continuer grâce à vous !",
+        "who": "Qui suis-je ?",
+        "cards": {
+            "card1": {
+                "titlecard": "Développement Web",
+                "textcard": "Ma passion pour le développement web n'a fait que grandir. Que ce soit les problèmes avec de multiples manière d'être résolus mais aussi l'impressionnante communauté autour du développement web, je suis impatient de connaître la suite de mon parcours !"
+            },
+            "card2": {
+                "titlecard": "Formation",
+                "textcard": "La formation OpenClassRoom m'a permis de décupler mes connaissances grâce à leur parcours qui permet de réaliser des projets qui sont en liens avec les demandes du monde réel."
+            },
+            "card3": {
+                "titlecard": "Langue",
+                "textcard": "Parlant le français et l'anglais, je n'ai aucune difficulté pour me renseigner sur les dernières avancées technologiques"
+            },
+            "card4": {
+                "titlecard": "Hobbie",
+                "textcard": "La Formula 1, le muay-thai et le MMA sont mes vices hahah houhou hihi"
+            },
+            "card5":{
+                "titlecard":"Téléphone :",
+                "textcard":"+23303262030"
+            },
+            "card6":{
+                "titlecard":"E-Mail :",
+                "textcard":"gautheron.og@gmail.com"
+            }
+        }
+    }
+}

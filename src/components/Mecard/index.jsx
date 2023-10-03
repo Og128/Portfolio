@@ -1,12 +1,16 @@
 import React from 'react'
 import './styles.css'
+import data from '../../locales/fr/texte.json'
 
-function Mecard() {
+function Mecard(props) {
+
+  const cardData = data.accueil.cards[props.props];
+
   return (
     <>
     <div className='mecard-container'>
-        <h4 className='mecard-title'>Titre</h4>
-        <p className='mecard-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quasi quia soluta, sit earum quam blanditiis eligendi accusantium, praesentium perferendis unde iusto quis voluptatum aut fugiat aspernatur est quas fuga.</p>
+        <h4 className='mecard-title'>{cardData.titlecard}</h4>
+        <p className='mecard-text'>{cardData.textcard}</p>
     </div>
     </>
   )

@@ -12,11 +12,14 @@
 
     .img-background {
         border-radius: 8px;
-        background-image: url('../../../assets/16557256333819_FR_1155_P3_Banner-Booki.avif');
         width: 400px;
         height: 158px;
         background-repeat: no-repeat;
         margin: 5px;
+        & img {
+            border-radius: 8px;
+            width: inherit;
+        }
     }
 
     .work-title-text {
