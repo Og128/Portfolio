@@ -1,0 +1,21 @@
+{
+    "contact":{
+        "title":"Contact",
+        "cards":{
+            "card1":{
+            "title" : "Phone",
+            "text" :"+23306587"
+            },
+            "card2":{
+                "title":"E-mail",
+                "text":"gautheron.og@gmail.com"
+            }
+        },
+        "text":"I am always open to discussing new projects, opportunity in tech world and much more !",
+        "form":{
+            "name":"Name",
+            "email": "E-mail",
+            "message" : "Message"
+        }
+    }
+}

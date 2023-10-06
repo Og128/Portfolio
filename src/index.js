@@ -24,7 +24,7 @@ root.render(
           <Route path="/home" element={<App page={<Home />} />} />
           <Route path="/resume" element={<App page={<Resume />} />} />
           <Route path="/work" element={<App page={<Work />} />} />
-          <Route path='/contact' element={<App page={<Project />} />} />
+          <Route path='/contact' element={<App page={<Contact />} />} />
           <Route path='/*' element={<App page={<Error />} />} />
         </Routes>
       </Router>

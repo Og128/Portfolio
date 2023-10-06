@@ -4,7 +4,7 @@ import { faLocationDot, faMobileScreen, faEnvelope, faDownload } from '@fortawes
 import { faFacebookF, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Socialink from '../Socialink';
-import Portrait from '../../assets/PortraitOlivier.jpg';
+import Portrait from '../../assets/portraitanon.png'
 
 function Hero() {
     return (

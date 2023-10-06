@@ -1,5 +1,4 @@
 import i18n from 'i18next';
-import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next'
 import resumeFR from './locales/fr/resume.json'
@@ -8,6 +7,8 @@ import projetFR from './locales/fr/projet.json'
 import projetEN from './locales/en/projet.json'
 import resumeEN from './locales/en/resume.json'
 import textEN from './locales/en/text.json'
+import contactEN from './locales/en/contact.json'
+import contactFR from './locales/fr/contact.json'
 
 
 const initI18n = (initialLanguage) => {
@@ -15,23 +16,24 @@ const initI18n = (initialLanguage) => {
         en: {
             transResumEN: resumeEN,
             transTextEN: textEN,
-            transProjetEN: projetEN
+            transProjetEN: projetEN,
+            transContactEN: contactEN
         },
         fr: {
             transResumFR: resumeFR,
             transTextFR: textFR,
-            transProjetFR: projetFR
+            transProjetFR: projetFR,
+            transContactFR: contactFR
         }
     }
 
 
     i18n
-        .use(Backend)
         .use(initReactI18next)
         .use(LanguageDetector)
         .init({
             resources,
-            ns: ['transResumFR', 'transResumEN', 'transTextFR', 'transTextEN', 'transProjetFR', 'transProjetEN'],
+            ns: ['transResumFR', 'transResumEN', 'transTextFR', 'transTextEN', 'transProjetFR', 'transProjetEN', 'transContactEN', 'transContactFR'],
             lng: initialLanguage,
             fallbackLng: "fr",
             debug: true,
