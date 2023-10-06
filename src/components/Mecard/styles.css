@@ -27,6 +27,7 @@
     }
 
     .mecard-text {
+        text-align: center;
         margin: 5px 25px 15px 25px;
         letter-spacing: 0.5px;
         color: var(--text-theme);

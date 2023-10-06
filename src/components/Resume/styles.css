@@ -11,10 +11,10 @@
         .resume-title {
             color: var(--text-theme);
             font-family: Poppins;
-            font-size: 27.737px;
+            font-size: 27px;
             font-style: normal;
             font-weight: 500;
-            letter-spacing: 0.693px;
+            letter-spacing: 0.7px;
             margin-bottom: 30px;
         }
     }

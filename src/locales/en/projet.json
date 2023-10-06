@@ -1,26 +1,64 @@
 {
-    "project":{
-        "title":"Project",
-        "projects":{
-            "project1":{
-                "title":"ReactJs",
-                "cover":"https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
-                "text":"Creation of a real estate rental web application with React and Sass"
+    "project": {
+        "title": "Project",
+        "projects": {
+            "project1": {
+                "title": "ReactJs, Sass",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "text": "Creation of a real estate rental web application with React and Sass"
             },
-            "project2":{
-                "title":"NodeJs",
-                "cover":"https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
-                "text":"Development of the back-end of a book rating site"
+            "project2": {
+                "title": "NodeJs, ExpressJs, MongoDB",
+                "cover": "https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
+                "text": "Development of the back-end of a book rating site"
             },
-            "project3":{
-                "title":"Méthode Agile, Kanban",
-                "cover":"https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
-                "text":"Planning the development of a website for a client"
+            "project3": {
+                "title": "Agile, Kanban, information monitoring",
+                "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
+                "text": "Planning the development of a website for a client"
             },
-            "project4":{
-                "title":"Still no idea",
-                "cover":"../../assets/PortraitOlivier.jpg",
-                "text":"Absolute no idea to what to put here so I just write something as a placeholder to not put Lorem everywhere"
+            "project4": {
+                "title": "Still no idea",
+                "cover": "../../assets/PortraitOlivier.jpg",
+                "text": "Absolute no idea to what to put here so I just write something as a placeholder to not put Lorem everywhere"
+            }
+        },
+        "work": {
+            "titlecard":{
+                "titlehard":"Problem encounter",
+                "titlesolu":"Problem resolution"
+            },
+            "work1": {
+                "title": "Creation of a real estate rental web application with React and Sass",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "textdesc": "The goal of this school project done with ReactJs, Sass, react-router and multiples others library, was to build the front-end of a web application of a real estate rental agency",
+                "textlearn": "In this project I learned how to use ReactJs by using component to build a website with my own component and others like react-router. Furthermore, I learned what was Sass and how to use it with the many tools it gives like mixins and variables.",
+                "textcardhard":"The 'hooks' as well as the 'states' were the most complicated subjects to tackle and their usefulness was not necessarily needed for the project to still be functional which leads to the fact that I still have to work on them in the future",
+                "textcardsolus":"The arrival of the Sass preprocessor in the project brings a simplification of the CSS which facilitates responsive design. Additionally, styled-components help enormously with site construction. As for Hooks, only useState and useEffect were useful in the project."
+            },
+            "work2": {
+                "title": "Development of the back-end of a book rating site",
+                "cover": "https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
+                "textdesc": "The goal of the project done with NodeJs, ExpressJs, MongoDB and multiples modules like jwt, bcrypt among others, was to build the back-end of a book rating site that will allow the user to add, modify, delete and rate any book he wishes.",
+                "textlearn": "In this project I learned how to developp the back-end of a website with the four essential operation 'CRUD' using ExpressJs as a framework and MongoDB as a database with mongoose to create the link between NodeJs and MongoDB.",
+                "textcardhard":"This project was the most complicated to tackle given the significant load of new information and new technologies addressed such as ExpressJS and Mongoose.",
+                "textcardsolus":"To successfully complete this project, the most important thing was to understand each line of my code to know their usefulness since unlike Front-End, there cannot be several solutions for a single problem."
+            },
+            "work3": {
+                "title": "Agile, Kanban, information monitoring",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "textdesc": "The goal of this school project was to plan the development of a website for a client. First, working on a tool that will help for monitoring information about which technology using to create the website, then making a document that will detail the technical specification of the website and finally, a powerpoint presentation to show to our client how the website will be build.",
+                "textlearn": "In this project I learned how to be a scrum master to lead my team using the agile project management through the project. I also learned how to use the website 'Trello' to create a Kanban that will list the different User stories to build for the website. While doing that I learned a lot about how to build a website, which language to use to build it, what is the difference between a hosting server and a database and a lot more !",
+                "textcardhard":"A difficult part to tackle when you are starting out in web development since this world is so vast that we do not yet know exactly what a language is compared to a framework, a library, a module or even a webpack.",
+                "textcardsolus":"The fact of focusing only on languages ​​already seen before and on the most used framework in the world allowed me not to get lost in the technical specifications of the site. As for the agile methodology and the users stories, a life-size exercise with my friends allowed me to understand the system well."
+            },
+            "work4": {
+                "title": "Still no idea",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "textdesc": "In this project I learned how to use ReactJs by using component to build a website with my own component and others like react-router. Furthermore, I learned what was Sass and how to use it with the many tools it gives like mixins and variables.",
+                "textlearn":"In this project I learned how to developp the back-end of a website with the four essential operation 'CRUD' using ExpressJs as a framework and MongoDB as a database with mongoose to create the link between NodeJs and MongoDB.",
+                "textcardhard":"Les 'hooks' ainsi que les 'states' ont était les sujets les plus compliqués à aborder et leur utilité n'était en plus pas forcément utile pour que le projet soit tout de même fonctionnel ce qui amène à ce que je dois toujours les travailler dans le futur",
+                "textcardsolus":"La venu du préprocesseur Sass dans le projet amène une simplification du Css ce qui facilite le responsive design. De plus, les 'styled-components' aident énormément à la construction du site. Quand aux Hooks, seuls useState et useEffect étaient utiles dans le projet."
             }
         }
     }

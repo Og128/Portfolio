@@ -12,17 +12,29 @@ function Resume() {
 
     return (
         <>
-            <Title props={'résume'} />
+            <Title title={t(`${currentNamespace}:resume.title`)} />
             <div className="resume-main">
                 <div className='resumes-titles'>
                     <h3 className='resume-title'>{t(`${currentNamespace}:resume.title1`)}</h3>
                     <h3 className='resume-title'>{t(`${currentNamespace}:resume.title2`)}</h3>
                 </div>
                 <div className='resume-container'>
-                    <Recard props={'card1'} />
-                    <Recard props={'card3'} />
-                    <Recard props={'card2'} />
-                    <Recard props={'card4'} />
+                    <Recard
+                        date={t(`${currentNamespace}:resume.cards.card1.year`)}
+                        title={t(`${currentNamespace}:resume.cards.card1.titlecard`)}
+                        text={t(`${currentNamespace}:resume.cards.card1.textcard`)} />
+                    <Recard
+                        date={t(`${currentNamespace}:resume.cards.card2.year`)}
+                        title={t(`${currentNamespace}:resume.cards.card2.titlecard`)}
+                        text={t(`${currentNamespace}:resume.cards.card2.textcard`)} />
+                    <Recard
+                        date={t(`${currentNamespace}:resume.cards.card3.year`)}
+                        title={t(`${currentNamespace}:resume.cards.card3.titlecard`)}
+                        text={t(`${currentNamespace}:resume.cards.card3.textcard`)} />
+                    <Recard
+                        date={t(`${currentNamespace}:resume.cards.card4.year`)}
+                        title={t(`${currentNamespace}:resume.cards.card4.titlecard`)}
+                        text={t(`${currentNamespace}:resume.cards.card4.textcard`)} />
                 </div>
 
                 <div className='tags-title'>
@@ -31,17 +43,17 @@ function Resume() {
                 </div>
                 <div className='tags-container'>
                     <div className='tag'>
-                        <Tags texte={'1'} />
-                        <Tags texte={'2'} />
-                        {/* <Tags texte={'3'} /> */}
-                        <Tags texte={'4'} />
-                        <Tags texte={'5'} />
-                        <Tags texte={'6'} />
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.1`)} />
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.2`)} />
+                        {/* <Tags tags={'3'} /> */}
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.4`)} />
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.5`)} />
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.6`)} />
                     </div>
                     <div className='tag'>
-                        <Tags texte={'7'} />
-                        <Tags texte={'8'} />
-                        <Tags texte={'9'} />
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.7`)} />
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.8`)} />
+                        <Tags tags={t(`${currentNamespace}:resume.skill.lists.9`)} />
 
                     </div>
                 </div>

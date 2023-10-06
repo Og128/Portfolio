@@ -1,23 +1,18 @@
 import './styles.css'
-import { useTranslation } from 'react-i18next'
 
 
 function Workcard(props) {
 
-    const { t, i18n } = useTranslation();
-    const currentNamespace =
-        i18n.language === 'en' ? 'transProjetEN' : 'transProjetFR';
-
     return (
         <>
                 <div className='work-card'>
-                    <div className="img-background"><img src={t(`${currentNamespace}:project.projects.${props.projet}.cover`)} alt={t(`project.projects.${props.projet}.title`)}></img></div>
+                    <div className="img-background"><img src={props.image} alt={props.title}></img></div>
                     <div className="work-title-text">
                         <h6 className="work-title">
-                        {t(`${currentNamespace}:project.projects.${props.projet}.text`)}
+                        {props.title}
                         </h6>
                         <p className="work-text">
-                        {t(`${currentNamespace}:project.projects.${props.projet}.title`)}
+                        {props.text}
                         </p>
                     </div>
                 </div>

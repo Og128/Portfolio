@@ -6,24 +6,24 @@
     padding: 20px 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 
     .xp-date {
         color: var(--text-work-title-theme);
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         margin-top:15px;
     }
 
     .xp-title {
         color: var(--text-theme);
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
     }
 
     .xp-desc {
         color:var(--text-theme);
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 500;
         margin-bottom: 15px;
     }

@@ -1,26 +1,64 @@
 {
-    "project":{
-        "title":"Projet",
-        "projects":{
-            "project1":{
-                "title":"ReactJs",
-                "cover":"https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
-                "text":"Création d'une application web de location immobilière avec React et Sass"
+    "project": {
+        "title": "Projet",
+        "projects": {
+            "project1": {
+                "title": "ReactJs, Sass",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "text": "Création d'une application web de location immobilière avec React et Sass"
             },
-            "project2":{
-                "title":"NodeJs",
-                "cover":"https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
-                "text":"Développement du back-end d'un site de notation de livres"
+            "project2": {
+                "title": "NodeJs, ExpressJs, MongoDB",
+                "cover": "https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
+                "text": "Développement du back-end d'un site de notation de livres"
             },
-            "project3":{
-                "title":"Méthode Agile, Kanban",
-                "cover":"https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
-                "text":"Planification du développement d'un site web pour un client"
+            "project3": {
+                "title": "Méthode Agile, Kanban, veille informationnelle",
+                "cover": "https://user.oc-static.com/upload/2022/06/21/16558082498489_FR_1156_P7_Banner-Qwenta.png",
+                "text": "Planification du développement d'un site web pour un client"
             },
-            "project4":{
-                "title":"Aucune idée",
-                "cover":"../../assets/PortraitOlivier.jpg",
-                "text":"Pour l'instant je n'ai pas d'idée de quoi mettre ici hihi hou hou"
+            "project4": {
+                "title": "Aucune idée",
+                "cover": "../../assets/PortraitOlivier.jpg",
+                "text": "Pour l'instant je n'ai pas d'idée de quoi mettre ici hihi hou hou"
+            }
+        },
+        "work": {
+            "titlecard":{
+                "titlehard":"Difficulté rencontré",
+                "titlesolu":"Résolution des problèmes"
+            },
+            "work1": {
+                "title": "Création d'une application web de location immobilière avec React et Sass",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "textdesc": "Le but de ce projet scolaire réalisé avec ReactJs, Sass, React-Router et plusieurs autres bibliothèques, était de construire le front-end d'une application web d'une agence de location immobilière",
+                "textlearn": "Dans ce projet, j'ai appris à utiliser ReactJs en utilisant un composant pour créer un site Web avec mon propre composant et d'autres comme React-Router. De plus, j'ai appris ce qu'était Sass et comment l'utiliser avec les nombreux outils qu'il propose. comme les mixins et les variables.",
+                "textcardhard":"Les 'hooks' ainsi que les 'states' ont était les sujets les plus compliqués à aborder et leur utilité n'était en plus pas forcément utile pour que le projet soit tout de même fonctionnel ce qui amène à ce que je dois toujours les travailler dans le futur",
+                "textcardsolus":"La venu du préprocesseur Sass dans le projet amène une simplification du Css ce qui facilite le responsive design. De plus, les 'styled-components' aident énormément à la construction du site. Quand aux Hooks, seuls useState et useEffect étaient utiles dans le projet."
+            },
+            "work2": {
+                "title": "Développement du back-end d'un site de notation de livres",
+                "cover": "https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png",
+                "textdesc": "Le but du projet réalisé avec NodeJs, ExpressJs, MongoDB et plusieurs modules comme jwt, bcrypt entre autres, était de construire le back-end d'un site d'évaluation de livres qui permettra à l'utilisateur d'ajouter, de modifier, de supprimer et de noter n'importe quel livre de son choix.",
+                "textlearn": "Dans ce projet j'ai appris à développer le back-end d'un site web avec les quatre opérations essentielles 'CRUD' en utilisant ExpressJs comme framework et MongoDB comme base de données avec Mongoose pour créer le lien entre NodeJs et la base de données.",
+                "textcardhard":"Ce projet a été le plus compliqué a appréhender étant donné la charge important de nouvelles informations et de nouvelles technologies abordés comme ExpressJS et Mongoose.",
+                "textcardsolus":"Pour parvenir à mener ce projet à bien, le plus important fut de comprendre chaque ligne de mon code pour savoir leur utilité puisque contrairement au Front-End, il ne peut y avoir plusieurs solutions pour un seul problème."
+            },
+            "work3": {
+                "title": "Planification du développement d'un site web pour un client",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "textdesc": "Le but de ce projet scolaire était de planifier le développement d'un site Web pour un client. Tout d'abord, travailler sur un outil qui pour faire de la veille informative sur les technologies utilisées pour créer le site Web, puis créer un document qui détaillera les spécifications techniques du site Web et enfin, une présentation PowerPoint pour montrer à notre client comment le site Web sera établi.",
+                "textlearn": "Dans ce projet, j'ai appris à être un Scrum Master pour diriger mon équipe en utilisant la gestion de projet agile tout au long du projet. J'ai également appris à utiliser le site 'Trello' pour créer un Kanban qui listera les différentes User stories à construire pour le site. Ce faisant, j'ai beaucoup appris sur comment créer un site Web, quel langage utiliser pour le créer, quelle est la différence entre un serveur d'hébergement et une base de données et bien plus encore !",
+                "textcardhard":"Une partie difficile à aborder lorsqu'on débute dans le développement web puisque ce monde est tellement vaste qu'on ne sait pas encore exactement ce qu'est un language comparé à un framework, une librarie, un module ou bien même un webpack.",
+                "textcardsolus":"Le fait de me concentrer seulement sur les langages déjà vu auparavant et sur le framework le plus utilisé dans le monde m'a permis de ne pas me perdre pour les spécifications techniques du site. Quant à la méthodologie agile et les users stories, une exercice grandeur nature avec mes amis m'a permis de bien comprendre le système."
+            },
+            "work4": {
+                "title": "Aucune idée",
+                "cover": "https://user.oc-static.com/upload/2022/06/24/16560899769906_FR_811_P8_Banner-Kasa%20%281%29.png",
+                "textdesc": "Le but de ce projet scolaire était de planifier le développement d'un site Web pour un client. Tout d'abord, travailler sur un outil qui pour faire de la veille informative sur les technologies utilisées pour créer le site Web, puis créer un document qui détaillera les spécifications techniques du site Web et enfin, une présentation PowerPoint pour montrer à notre client comment le site Web sera établi.",
+                "textlearn": "Dans ce projet, j'ai appris à être un Scrum Master pour diriger mon équipe en utilisant la gestion de projet agile tout au long du projet. J'ai également appris à utiliser le site 'Trello' pour créer un Kanban qui listera les différentes User stories à construire pour le site. Ce faisant, j'ai beaucoup appris sur comment créer un site Web, quel langage utiliser pour le créer, quelle est la différence entre un serveur d'hébergement et une base de données et bien plus encore !",
+                "textcardhard":"Ce projet a été le plus compliqué a appréhender étant donné la charge important de nouvelles informations et de nouvelles technologies abordés comme ExpressJS et Mongoose.",
+                "textcardsolus":"Pour parvenir à mener ce projet à bien, le plus important fut de comprendre chaque ligne de mon code pour savoir leur utilité puisque contrairement au Front-End, il ne peut y avoir plusieurs solutions pour un seul problème."
             }
         }
     }
