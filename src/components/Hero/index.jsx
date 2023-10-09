@@ -5,8 +5,14 @@ import { faFacebookF, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Socialink from '../Socialink';
 import Portrait from '../../assets/portraitanon.png'
+import { useTranslation } from 'react-i18next';
 
 function Hero() {
+
+    const { t, i18n } = useTranslation();
+    const currentNamespace =
+        i18n.language === 'en' ? 'transTextEN'  : 'transTextFR';
+
     return (
         <div className="container-hero">
             <div className='portrait'>
@@ -14,7 +20,7 @@ function Hero() {
             </div>
             <div className="info-me">
                 <p className='me-name'>Olivier Gautheron</p>
-                <p className='work-title'>FullStack Developper</p>
+                <p className='work-title'>{t(`${currentNamespace}:accueil.info.hero.title`)}</p>
                 <div className="info-link">
                     <Socialink
                         icon={faLinkedin}
@@ -35,23 +41,23 @@ function Hero() {
                         <Information
                             icon={faMobileScreen}
                             color={{ color: '#EC1C09' }}
-                            title={'Phone'}
+                            title={t(`${currentNamespace}:accueil.info.hero.phone`)}
                             details={'+23306587'} />
                         <Information
                             icon={faEnvelope}
                             color={{ color: '#FF9C1B' }}
-                            title={'Email'}
+                            title={t(`${currentNamespace}:accueil.info.hero.email`)}
                             details={'gautheron.og@gmail.com'} />
                         <Information
                             icon={faLocationDot}
                             color={{ color: '#E80505' }}
-                            title={'Location'}
+                            title={t(`${currentNamespace}:accueil.info.hero.location`)}
                             details={'Tavernes, France'} />
 
                     </div>
                     <div className='btn-dl'>
                         <FontAwesomeIcon icon={faDownload} />
-                        <p>Téléchargement CV</p>
+                        <p>{t(`${currentNamespace}:accueil.info.hero.load`)}</p>
                     </div>
                 </div>
             </div>

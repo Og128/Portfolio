@@ -28,6 +28,21 @@
                 "titlecard":"E-Mail :",
                 "textcard":"gautheron.og@gmail.com"
             }
+        },
+        "info":{
+            "icons":{
+                "home":"Accueil",
+                "resume":"Résumé",
+                "work":"Projet",
+                "contact":"Contact"
+            },
+            "hero":{
+                "title":"Développeur FullStack",
+                "phone":"Téléphone",
+                "email":"E-mail",
+                "location":"Location",
+                "load":"Téléchargement CV"
+            }
         }
     }
 }

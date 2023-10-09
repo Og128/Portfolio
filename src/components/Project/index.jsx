@@ -3,42 +3,47 @@ import Tags from '../Tags';
 import Title from '../Title';
 import './styles.css'
 import { useTranslation } from 'react-i18next';
+import IMAGES from '../../assets';
+import { useParams } from 'react-router-dom';
 
 function Project() {
 
+    const { id } = useParams();
+
     const { t, i18n } = useTranslation();
-    const currentNamespaceResume =
-        i18n.language === 'en' ? 'transResumEN'  : 'transResumFR';
     const currentNamespaceProjet =
-        i18n.language === 'en' ? 'transProjetEN'  : 'transProjetFR';
+        i18n.language === 'en' ? 'transProjetEN' : 'transProjetFR';
+
+    let workDetails = `${currentNamespaceProjet}:project.works.${id}`;
+    let workImg = IMAGES[`${id}`];
 
     return (
         <>
             <Title title={t(`${currentNamespaceProjet}:project.title`)} />
             <div className="project-container">
-                <h2 className="project-title">{t(`${currentNamespaceProjet}:project.work.work1.title`)}</h2>
+                <h2 className="project-title">{t(`${workDetails}.text`)}</h2>
                 <div className="project-text-img">
                     <div className="project-text">
-                    {t(`${currentNamespaceProjet}:project.work.work2.textlearn`)} <br/><br/>
-                    {t(`${currentNamespaceProjet}:project.work.work2.textdesc`)}
+                        {t(`${workDetails}.textlearn`)} <br /><br />
+                        {t(`${workDetails}.textdesc`)}
                     </div>
                     <div className="project-img-link">
                         <div className="project-img">
-                            <img src='https://user.oc-static.com/upload/2022/10/11/16654934257102_DW-P7-Back-end_company-banner.png' alt='oui' />
+                            <img src={workImg} alt={t(`${workDetails}.text`)} />
                         </div>
                         <div className="project-link">
-                            <Tags tags={t(`${currentNamespaceResume}:resume.skill.lists.5`)} />
-                            <Tags tags={t(`${currentNamespaceResume}:resume.skill.lists.6`)} />
+                            <Tags tags={'GitHub'} />
+                            <Tags tags={'Website'} />
                         </div>
                     </div>
                 </div>
                 <div className="project-card">
-                    <Mecard 
-                    title= {t(`${currentNamespaceProjet}:project.work.titlecard.titlehard`)}
-                    text= {t(`${currentNamespaceProjet}:project.work.work2.textcardhard`)} />
-                    <Mecard 
-                    title= {t(`${currentNamespaceProjet}:project.work.titlecard.titlesolu`)}
-                    text= {t(`${currentNamespaceProjet}:project.work.work2.textcardsolus`)} />
+                    <Mecard
+                        title={t(`${currentNamespaceProjet}:project.works.titlecard.titlehard`)}
+                        text={t(`${workDetails}.textcardhard`)} />
+                    <Mecard
+                        title={t(`${currentNamespaceProjet}:project.works.titlecard.titlesolu`)}
+                        text={t(`${workDetails}.textcardsolus`)} />
                 </div>
 
             </div>

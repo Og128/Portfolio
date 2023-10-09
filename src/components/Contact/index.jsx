@@ -11,7 +11,7 @@ function Contact() {
         
     return (
         <>
-            <Title />
+            <Title title={t(`${currentNamespace}:contact.title`)}  />
             <div className="contact-container">
                 <div className="info">
                     <Mecard 

@@ -7,6 +7,7 @@
   --info-theme: rgb(179, 163, 163);
   --card-theme: #E8050550;
   --card-theme-snd: #FF9C1A50;
+  --box-shadow:252, 8, 8;
 }
 
 [data-theme='light'] {
@@ -18,6 +19,7 @@
   --info-theme: rgba(26, 16, 3, 0.50);
   --card-theme: #FFEBD1;
   --card-theme-snd: #F2F7FC;
+  --box-shadow:0, 0, 0, 0.25;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,6 +32,7 @@
     --info-theme: rgba(26, 16, 3, 0.50);
     --card-theme: #FFEBD1;
     --card-theme-snd: #F2F7FC;
+    --box-shadow:0, 0, 0, 0.25;
   }
 }
 
@@ -43,5 +46,6 @@
     --info-theme: rgb(179, 163, 163);
     --card-theme: #E8050550;
     --card-theme-snd: #FF9C1A50;
+    --box-shadow:0, 0, 0, 0.25;
   }
 }
