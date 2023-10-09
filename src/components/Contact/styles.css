@@ -1,14 +1,24 @@
 @import url('../../styles/variable.css');
 
 .contact-container {
-    margin: 0px 72px;
+    margin: 30px 72px 0 72px;
     display: flex;
     flex-direction: column;
+    @media (max-width:750px) {
+        margin:0 20px;
+    }
 
     .info {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 25px;
+        gap:20px;
+        @media (max-width:750px) {
+           grid-template-columns: 1fr;
+           min-width: 350px;
+           margin:auto;
+           margin-bottom:25px;
+        }
     }
 
     .contact-form {
@@ -29,12 +39,12 @@
             flex-direction: column;
 
             .contact-line {
-                width: 579.001px;
+                width: 60%;
                 height: 2px;
                 opacity: 0.2;
                 background: #B5B5B5;
                 margin-top: 20px;
-                margin-left: 50px;
+                margin-left: 100px;
             }
 
             & div {
@@ -49,7 +59,9 @@
                     margin-right: 25px;
                 }
                 & input {
+                    text-align: center;
                     color:#FD8A18;
+                    text-wrap: wrap;
                 }
             }
 
@@ -74,5 +86,5 @@
 
 textarea {
     background-color: #F8FBFB;
-    overflow-y: auto; 
+    overflow-x: auto; 
 }

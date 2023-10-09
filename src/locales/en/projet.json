@@ -27,12 +27,12 @@
                 "textcardsolus": "The fact of focusing only on languages ​​already seen before and on the most used framework in the world allowed me not to get lost in the technical specifications of the site. As for the agile methodology and the users stories, a life-size exercise with my friends allowed me to understand the system well."
             },
             "work4": {
-                "title": "Still no idea",
-                "text": "Absolute no idea to what to put here so I just write something as a placeholder to not put Lorem everywhere",
-                "textdesc": "In this project I learned how to use ReactJs by using component to build a website with my own component and others like react-router. Furthermore, I learned what was Sass and how to use it with the many tools it gives like mixins and variables.",
-                "textlearn": "In this project I learned how to developp the back-end of a website with the four essential operation 'CRUD' using ExpressJs as a framework and MongoDB as a database with mongoose to create the link between NodeJs and MongoDB.",
-                "textcardhard": "Les 'hooks' ainsi que les 'states' ont était les sujets les plus compliqués à aborder et leur utilité n'était en plus pas forcément utile pour que le projet soit tout de même fonctionnel ce qui amène à ce que je dois toujours les travailler dans le futur",
-                "textcardsolus": "La venu du préprocesseur Sass dans le projet amène une simplification du Css ce qui facilite le responsive design. De plus, les 'styled-components' aident énormément à la construction du site. Quand aux Hooks, seuls useState et useEffect étaient utiles dans le projet."
+                "title": "Website in progress",
+                "text": "Website under CONSTRUCTION for comparing computer hardware performances",
+                "textdesc": "The goal of this project, still under construction, will be to present to graphics card buyers the possibility of using a tool that will allow them to compare, filter and sort cards based on criteria such as power, price, power consumption, and much more.",
+                "textlearn": "Choosing the right graphics card can be a complex task, especially with the multitude of models available on the market. This is why, as a enthusiast in this field, the creation of this site is particularly important to me to heart. One of the reasons I learned web development is to create such website.",
+                "textcardhard":"Not yet done",
+                "textcardsolus":"Not yet done"
             },
             "titlecard": {
                 "titlehard": "Problem encounter",

@@ -25,18 +25,18 @@ function Contact() {
                     <p className="contact-text"> {t(`${currentNamespace}:contact.text`)}</p>
                     <form className="form" action="mailto:shosets@gmail.com" method="post">
                         <div className="name">
-                            <label for="name">{t(`${currentNamespace}:contact.form.name`)}</label>
+                            <label for="name">{t(`${currentNamespace}:contact.form.name`)} :</label>
                             <input type="text" id="name" name="name" required />
                         </div>
                         <div className="contact-line"></div>
                         <div className="email">
-                            <label for="email">{t(`${currentNamespace}:contact.form.email`)}</label>
+                            <label for="email">{t(`${currentNamespace}:contact.form.email`)} :</label>
                             <input type="email" id="email" name="email" required />
                         </div>
                         <div className="contact-line"></div>
                         <div className="text">
-                            <label for="message">{t(`${currentNamespace}:contact.form.message`)}</label>
-                            <textarea id="message" name="message" rows="1" cols="50" required></textarea>
+                            <label for="message">{t(`${currentNamespace}:contact.form.message`)} :</label>
+                            <textarea id="message" name="message" rows="1" cols="25" required></textarea>
                         </div>
                         <div className="contact-line"></div>
                         <input className="form-button" type="submit" value="Submit" />

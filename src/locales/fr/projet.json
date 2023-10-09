@@ -27,12 +27,12 @@
                 "textcardsolus":"Le fait de me concentrer seulement sur les langages déjà vu auparavant et sur le framework le plus utilisé dans le monde m'a permis de ne pas me perdre pour les spécifications techniques du site. Quant à la méthodologie agile et les users stories, une exercice grandeur nature avec mes amis m'a permis de bien comprendre le système."
             },
             "work4": {
-                "title": "Aucune idée",
-                "text": "Pour l'instant je n'ai pas d'idée de quoi mettre ici hihi hou hou",
-                "textdesc": "Le but de ce projet scolaire était de planifier le développement d'un site Web pour un client. Tout d'abord, travailler sur un outil qui pour faire de la veille informative sur les technologies utilisées pour créer le site Web, puis créer un document qui détaillera les spécifications techniques du site Web et enfin, une présentation PowerPoint pour montrer à notre client comment le site Web sera établi.",
-                "textlearn": "Dans ce projet, j'ai appris à être un Scrum Master pour diriger mon équipe en utilisant la gestion de projet agile tout au long du projet. J'ai également appris à utiliser le site 'Trello' pour créer un Kanban qui listera les différentes User stories à construire pour le site. Ce faisant, j'ai beaucoup appris sur comment créer un site Web, quel langage utiliser pour le créer, quelle est la différence entre un serveur d'hébergement et une base de données et bien plus encore !",
-                "textcardhard":"Ce projet a été le plus compliqué a appréhender étant donné la charge important de nouvelles informations et de nouvelles technologies abordés comme ExpressJS et Mongoose.",
-                "textcardsolus":"Pour parvenir à mener ce projet à bien, le plus important fut de comprendre chaque ligne de mon code pour savoir leur utilité puisque contrairement au Front-End, il ne peut y avoir plusieurs solutions pour un seul problème."
+                "title": "Site en construction",
+                "text": "Site web en CONSTRUCTION de comparaison des performances de composant informatique",
+                "textdesc": "Le but de ce projet, encore en construction, sera de présenter aux acheteurs de carte graphique la possibilité d'utiliser un outil qui leur permettra de comparer filtrer et trier les cartes en fonction de critères tels que la puissance, le prix, la consommation électrique, et bien plus encore.",
+                "textlearn": "Choisir la bonne carte graphique peut être une tâche complexe, surtout avec la multitude de modèles disponibles sur le marché. C'est pour cela qu'en tant que passionné dans ce domaine, la création de ce site me tient particulièrement à coeur. L'une des raisons pour lesquelles j'ai appris le développement web est la création d'un tel site. ",
+                "textcardhard":"Pas encore réalisé",
+                "textcardsolus":"Pas encore réalisé"
             },
             "titlecard":{
                 "titlehard":"Difficulté rencontré",

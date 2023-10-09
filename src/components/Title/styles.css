@@ -10,6 +10,9 @@
         font-family: 'Poppins', sans-serif;
         margin: 28px 72px;
         letter-spacing: 1px;
+        @media (max-width:750px) {
+            margin: 28px auto;
+        }
     }
 
     .separator {
@@ -18,5 +21,8 @@
         color: red;
         background: linear-gradient(#FE9119, #ED250A);
         margin: auto 0px;
+        @media (max-width:750px) {
+            display: none;
+        }
     }
 }

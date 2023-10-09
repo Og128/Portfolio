@@ -41,7 +41,6 @@ const initI18n = (initialLanguage) => {
                 escapeValue: false
             }
         });
-    // return i18n;
 }
 export {initI18n};
 

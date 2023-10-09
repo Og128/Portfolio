@@ -8,6 +8,7 @@
     background: var(--card-theme);
     max-width: 440px;
     min-height: 150px;
+    height: fit-content;
 
     &:nth-of-type(2) {
         background-color: var(--card-theme-snd);
