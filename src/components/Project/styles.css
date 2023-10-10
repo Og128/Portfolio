@@ -3,12 +3,21 @@
     display: flex;
     flex-direction: column;
 
+    @media (max-width:750px) {
+        margin: 0 20px;
+    }
+
     .project-title {
         font-family: Poppins;
         letter-spacing: 0.7px;
         font-size: 18px;
         color: var(--text-theme);
         margin-bottom: 30px;
+        line-height: 20px;
+
+        @media (max-width:1150px) {
+            text-align: center;
+        }
     }
 
     .project-text-img {
@@ -17,12 +26,24 @@
         justify-content: space-between;
         gap: 20px;
 
+        @media (max-width:1150px) {
+            flex-direction: column-reverse;
+        }
+
+        @media (max-width:750px) {
+            margin: 0 20px;
+        }
+
         .project-text {
             line-height: 20px;
             font-size: 16px;
             margin: auto;
             color: var(--text-theme);
             width: 60%;
+
+            @media (max-width:1150px) {
+                width: 90%;
+            }
         }
 
         .project-img-link {
@@ -36,7 +57,8 @@
                 justify-content: space-around;
                 gap: 30px;
             }
-            .project-img{
+
+            .project-img {
                 & img {
                     border-radius: 8px;
                     width: 350px;
@@ -47,12 +69,18 @@
         }
     }
 
-  
-
     .project-card {
         margin-top: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap:50px;
+        gap: 50px;
+        margin-bottom: 10px;
+        text-align: center;
+
+        @media (max-width:750px) {
+            grid-template-columns: 1fr;
+            place-items: center;
+            gap:20px;
+        }
     }
 }
