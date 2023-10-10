@@ -1,9 +1,10 @@
+@import url('../../styles/variable.css');
+
 .menu-card {
     width: 80px;
     height: 80px;
-    margin: 10px 40px;
     border-radius: 20px;
-    background: #E1E8EF;
+    background: var(--icon-theme);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,6 +15,7 @@
         font-size: 12px;
         font-weight: 600px;
         color: #000;
+        
     }
 
     &:hover {

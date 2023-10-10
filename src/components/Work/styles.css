@@ -1,0 +1,14 @@
+.work-container {
+    margin: 30px 72px 0 72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    @media (max-width:750px) {
+        grid-template-columns: 1fr;
+        place-items: center;
+        margin:0 20px 20px 20px;
+    }
+    .link-work{
+        width: fit-content;
+    }
+}

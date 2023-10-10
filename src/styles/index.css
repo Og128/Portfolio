@@ -10,6 +10,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
+
 article,
 aside,
 details,
@@ -49,4 +50,21 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+input{
+  all:unset;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+a{
+  text-decoration: none;
 }

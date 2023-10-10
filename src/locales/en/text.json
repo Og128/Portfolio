@@ -1,0 +1,48 @@
+{
+    "accueil": {
+        "title": "Home",
+        "text": "Hello ! I am delighted that you are browsing my portfolio. I am a new developer having just finished my Full-Stack web developer training with the OpenClassRoom school. Passionate about computers and technological advances since a young age, I am finally launching into the world of development. My adventure in this world has so far only been good things, and I hope it will continue thanks to you!",
+        "who": "Who am I ?",
+        "cards": {
+            "card1": {
+                "titlecard": "Web Development",
+                "textcard": "My passion for web development has only grown. Whether it's the problems with multiple ways to be solved but also the impressive community around web development, I can't wait to know the rest of my journey !"
+            },
+            "card2": {
+                "titlecard": "Education",
+                "textcard": "The OpenClassRoom school allowed me to increase my knowledge tenfold thanks to their course which allows me to carry out projects that are linked to real-world demands."
+            },
+            "card3": {
+                "titlecard": "Language",
+                "textcard": "Speaking French and English, I have no difficulty finding out about the latest technological advances"
+            },
+            "card4": {
+                "titlecard": "Hobbies",
+                "textcard": "I am passionate about Formula 1, martial arts and E-sport"
+            },
+            "card5":{
+                "titlecard":"Phone :",
+                "textcard":"+23303262030"
+            },
+            "card6":{
+                "titlecard":"E-Mail :",
+                "textcard":"gautheron.og@gmail.com"
+            }
+        },
+        "info":{
+            "icons":{
+                "home":"Home",
+                "resume":"Resume",
+                "work":"Work",
+                "contact":"Contact"
+            },
+            "hero":{
+                "title":"FullStack Developper",
+                "phone":"Phone",
+                "email":"E-mail",
+                "location":"Location",
+                "load":"Download resume"
+            }
+        }
+    }
+}

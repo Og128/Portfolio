@@ -1,0 +1,43 @@
+{
+    "project": {
+        "title": "Project",
+        "works": {
+            "work1": {
+                "title": "ReactJs, Sass",
+                "text": "Creation of a real estate rental web application with React and Sass",
+                "textdesc": "The goal of this school project done with ReactJs, Sass, react-router and multiples others library, was to build the front-end of a web application of a real estate rental agency",
+                "textlearn": "In this project I learned how to use ReactJs by using component to build a website with my own component and others like react-router. Furthermore, I learned what was Sass and how to use it with the many tools it gives like mixins and variables.",
+                "textcardhard": "The 'hooks' as well as the 'states' were the most complicated subjects to tackle and their usefulness was not necessarily needed for the project to still be functional which leads to the fact that I still have to work on them in the future",
+                "textcardsolus": "The arrival of the Sass preprocessor in the project brings a simplification of the CSS which facilitates responsive design. Additionally, styled-components help enormously with site construction. As for Hooks, only useState and useEffect were useful in the project."
+            },
+            "work2": {
+                "title": "NodeJs, ExpressJs, MongoDB",
+                "text": "Development of the back-end of a book rating site",
+                "textdesc": "The goal of the project done with NodeJs, ExpressJs, MongoDB and multiples modules like jwt, bcrypt among others, was to build the back-end of a book rating site that will allow the user to add, modify, delete and rate any book he wishes.",
+                "textlearn": "In this project I learned how to developp the back-end of a website with the four essential operation 'CRUD' using ExpressJs as a framework and MongoDB as a database with mongoose to create the link between NodeJs and MongoDB.",
+                "textcardhard": "This project was the most complicated to tackle given the significant load of new information and new technologies addressed such as ExpressJS and Mongoose.",
+                "textcardsolus": "To successfully complete this project, the most important thing was to understand each line of my code to know their usefulness since unlike Front-End, there cannot be several solutions for a single problem."
+            },
+            "work3": {
+                "title": "Agile, Kanban, information monitoring",
+                "text": "Planning the development of a website for a client",
+                "textdesc": "The goal of this school project was to plan the development of a website for a client. First, working on a tool that will help for monitoring information about which technology using to create the website, then making a document that will detail the technical specification of the website and finally, a powerpoint presentation to show to our client how the website will be build.",
+                "textlearn": "In this project I learned how to be a scrum master to lead my team using the agile project management through the project. I also learned how to use the website 'Trello' to create a Kanban that will list the different User stories to build for the website. While doing that I learned a lot about how to build a website, which language to use to build it, what is the difference between a hosting server and a database and a lot more !",
+                "textcardhard": "A difficult part to tackle when you are starting out in web development since this world is so vast that we do not yet know exactly what a language is compared to a framework, a library, a module or even a webpack.",
+                "textcardsolus": "The fact of focusing only on languages ​​already seen before and on the most used framework in the world allowed me not to get lost in the technical specifications of the site. As for the agile methodology and the users stories, a life-size exercise with my friends allowed me to understand the system well."
+            },
+            "work4": {
+                "title": "Website in progress",
+                "text": "Website under CONSTRUCTION for comparing computer hardware performances",
+                "textdesc": "The goal of this project, still under construction, will be to present to graphics card buyers the possibility of using a tool that will allow them to compare, filter and sort cards based on criteria such as power, price, power consumption, and much more.",
+                "textlearn": "Choosing the right graphics card can be a complex task, especially with the multitude of models available on the market. This is why, as a enthusiast in this field, the creation of this site is particularly important to me to heart. One of the reasons I learned web development is to create such website.",
+                "textcardhard":"Not yet done",
+                "textcardsolus":"Not yet done"
+            },
+            "titlecard": {
+                "titlehard": "Problem encounter",
+                "titlesolu": "Problem resolution"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import url('../../styles/variable.css');
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    .error-num {
+        margin-top:200px;
+        font-size: 150px;
+        background: -webkit-linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .error-text {
+        font-size: 40px;
+        color: var(--text-theme);
+    }
+}

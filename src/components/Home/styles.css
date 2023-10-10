@@ -1,0 +1,50 @@
+@import url('../../styles/variable.css');
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 70px;
+    @media (max-width:750px) {
+       margin:0 20px;
+    }
+
+    .home-text {
+        color: var(--text-theme);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .do-container {
+        display: flex;
+        flex-direction: column;
+
+        .do-title {
+            color: var(--text-theme);
+            font-family: Poppins;
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 30px;
+
+            @media (max-width:750px) {
+                text-align: center;
+            }
+        }
+
+        .do-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 30px;
+            text-align: center;
+
+            @media (max-width:750px) {
+                grid-template-columns: 1fr;
+                grid-template-rows: max-content;
+                place-items: center;
+                margin-bottom:25px;
+            }
+        }
+    }
+}

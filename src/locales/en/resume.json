@@ -1,0 +1,44 @@
+{
+    "resume": {
+        "title": "Resume",
+        "title1": "Education",
+        "title2": "Experience",
+        "skill": {
+            "title1": "Work Skills",
+            "title2": "Soft Skills",
+            "lists": {
+                "1": "ReactJs",
+                "2": "Javascript",
+                "3": "HTML/CSS",
+                "4": "Sass",
+                "5": "NodeJs",
+                "6": "MongoDB",
+                "7": "English",
+                "8": "French",
+                "9": "Hardware"
+            }
+        },
+        "cards": {
+            "card1": {
+                "year": "2010-2012",
+                "titlecard": "Baccalaureate in industrial sciences and technologies",
+                "textcard": "Marie-Madeleine Fourcade, Gardanne, France"
+            },
+            "card2": {
+                "year": "2023-2023",
+                "titlecard": "Full-Stack Web Development",
+                "textcard": "OpenClassRooms, France"
+            },
+            "card3": {
+                "year": "2015-2022",
+                "titlecard": "Delivery",
+                "textcard": "Direct Transport, Cavaillon, France"
+            },
+            "card4": {
+                "year": "2022-2023",
+                "titlecard": "No idéa",
+                "textcard": "Still no idea what to put there, sowy"
+            }
+        }
+    }
+}

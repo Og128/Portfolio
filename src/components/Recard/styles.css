@@ -1,0 +1,30 @@
+@import url('../../styles/variable.css');
+
+.recard-container {
+    border-radius: 9.246px;
+    background: var(--card-theme);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .xp-date {
+        color: var(--text-work-title-theme);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top:15px;
+    }
+
+    .xp-title {
+        color: var(--text-theme);
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .xp-desc {
+        color:var(--text-theme);
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+}

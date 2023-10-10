@@ -1,0 +1,19 @@
+@import url('../../styles/variable.css');
+
+.tags {
+    color: var(--text-theme);
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+    border-radius: 8px;
+    background: var(--icon-theme);
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}

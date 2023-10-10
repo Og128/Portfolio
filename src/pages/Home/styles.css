@@ -1,17 +1,32 @@
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-    background: #F2F5F9;
+@import url('../../styles/variable.css');
+
+
+[data-theme] {
+    background-color: var(--bg-theme);
+    transition: all 0.5s
 }
 
-.container-main{
-    margin-bottom:50px;
+.fullweb {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.container-main {
+    padding-bottom: 50px;
     display: flex;
-    .menu-main{
+    @media (max-width:1050px) {
+       flex-direction: column-reverse;
+    }
+
+    .menu-main {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         gap: 10px;
+        @media (max-width:1050px) {
+            align-items: center;
+        }
     }
-} 
+}
+

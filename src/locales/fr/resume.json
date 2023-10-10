@@ -1,0 +1,44 @@
+{
+    "resume": {
+        "title": "Résumé",
+        "title1": "Éducation",
+        "title2": "Expérience",
+        "skill": {
+            "title1": "Compétences web",
+            "title2": "Compétences générales",
+            "lists": {
+                "1": "ReactJs",
+                "2": "Javascript",
+                "3": "HTML/CSS",
+                "4": "Sass",
+                "5": "NodeJs",
+                "6": "MongoDB",
+                "7": "Anglais",
+                "8": "Français",
+                "9": "Informatique"
+            }
+        },
+        "cards": {
+            "card1": {
+                "year": "2010-2012",
+                "titlecard": "Baccalauréat sciences et technologies industrielles",
+                "textcard": "Marie-Madeleine Fourcade, Gardanne, France"
+            },
+            "card2": {
+                "year": "2023-2023",
+                "titlecard": "Développeur web Full-Stack",
+                "textcard": "OpenClassRooms, France"
+            },
+            "card3": {
+                "year": "2015-2022",
+                "titlecard": "Livraison",
+                "textcard": "Direct Transport, Cavaillon, France"
+            },
+            "card4": {
+                "year": "2022-2023",
+                "titlecard": "No idée",
+                "textcard": "Du coup aucune idée non plus"
+            }
+        }
+    }
+}
