@@ -13,10 +13,17 @@
         background: -webkit-linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        @media (max-width:750px) {
+            font-size: 100px;
+        }
     }
 
     .error-text {
         font-size: 40px;
         color: var(--text-theme);
+        @media (max-width:1050px) {
+            text-align: center;
+            font-size: 28px;
+        }
     }
 }

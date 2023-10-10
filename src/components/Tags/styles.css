@@ -16,4 +16,7 @@
     align-items: center;
     gap: 10px;
     width: fit-content;
+    @media (max-width:750px) {
+        font-size: 10px;
+    }
 }

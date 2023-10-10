@@ -9,6 +9,11 @@
     border-radius: 50px;
     background: var(--icon-theme);
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    @media (max-width:750px) {
+        width: 40px;
+        height: 40px;
+        font-size: 10px;
+    }
     &:hover{
         cursor: pointer;
     }
