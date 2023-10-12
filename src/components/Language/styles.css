@@ -18,6 +18,26 @@
         cursor: pointer;
     }
 }
-.marked{
-    color:red;
+
+.en::before{
+    content: "EN";
+    color:var(--gradient-infos);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fr::before{
+    content: "FR";
+    color:var(--gradient-infos);
+    font-size: 20px;
+    font-weight: 600; 
+}
+
+@media (max-width:750px) {
+    .fr::before{
+        font-size: 14px;
+    }
+    .en::before{
+        font-size: 14px;
+    }
 }

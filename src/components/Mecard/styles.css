@@ -17,6 +17,11 @@
     &:nth-of-type(3) {
         background-color: var(--card-theme-snd);
     }
+    @media (max-width:750px) {
+        &:nth-child(3){
+            order:4
+        }
+    }
 
 
     .mecard-title {

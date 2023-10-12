@@ -8,6 +8,7 @@
     justify-content: space-evenly;
     gap: 80px;
     padding: 10px;
+    position: sticky;
     .link-menu{
         text-decoration: none;
         color: inherit;
@@ -16,6 +17,12 @@
         gap:40px;
     }
     @media (max-width:500px) {
-        gap:20px;
+        position: fixed;
+        bottom: 0;
+        z-index: 2;
+        width: 100%;
+        background-color: var(--bg-comp-theme);
+        box-shadow: none;
+        gap:0px;
     }
 }

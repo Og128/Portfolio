@@ -11,46 +11,50 @@ function Hero() {
 
     const { t, i18n } = useTranslation();
     const currentNamespace =
-        i18n.language === 'en' ? 'transTextEN'  : 'transTextFR';
+        i18n.language === 'en' ? 'transTextEN' : 'transTextFR';
 
     return (
         <div className="container-hero">
             <div className='portrait'>
-                <img src={Portrait} alt="Portrait d'Olivier Gautheron"/>
+                <img src={Portrait} alt="Portrait d'Olivier Gautheron" />
             </div>
             <div className="info-me">
                 <p className='me-name'>Olivier Gautheron</p>
                 <p className='work-title'>{t(`${currentNamespace}:accueil.info.hero.title`)}</p>
                 <div className="info-link">
-                    <Socialink
-                        icon={faLinkedin}
-                        color={{ color: '#0077B5' }} />
-                    <Socialink
-                        icon={faFacebookF}
-                        color={{ color: '#1877F2' }} />
-                    <Socialink
-                        icon={faTwitter}
-                        color={{ color: '#1DA1F2' }} />
-                    <Socialink
-                        icon={faGithub}
-                        color={{ color: '#000' }} />
+                    <a href={t(`${currentNamespace}:accueil.info.link.linked`)}>
+                        <Socialink
+                            icon={faLinkedin}
+                            color={{ color: '#0077B5' }} /></a>
+                    <a href={t(`${currentNamespace}:accueil.info.link.face`)}>
+                        <Socialink
+                            icon={faFacebookF}
+                            color={{ color: '#1877F2' }} /></a>
+                    <a href={t(`${currentNamespace}:accueil.info.link.twitter`)}>
+                        <Socialink
+                            icon={faTwitter}
+                            color={{ color: '#1DA1F2' }} /></a>
+                    <a href={t(`${currentNamespace}:accueil.info.link.github`)}>
+                        <Socialink
+                            icon={faGithub}
+                            color={{ color: 'var(--text-theme)' }} /></a>
 
                 </div>
                 <div className='container-information'>
                     <div className='information'>
                         <Information
                             icon={faMobileScreen}
-                            color={{ color: '#EC1C09' }}
+                            color={{ color: 'var(--gradient-infos)' }}
                             title={t(`${currentNamespace}:accueil.info.hero.phone`)}
                             details={'+23306587'} />
                         <Information
                             icon={faEnvelope}
-                            color={{ color: '#FF9C1B' }}
+                            color={{ color: 'var(--gradient-info)' }}
                             title={t(`${currentNamespace}:accueil.info.hero.email`)}
                             details={'gautheron.og@gmail.com'} />
                         <Information
                             icon={faLocationDot}
-                            color={{ color: '#E80505' }}
+                            color={{ color: 'var(--gradient-infos)' }}
                             title={t(`${currentNamespace}:accueil.info.hero.location`)}
                             details={'Tavernes, France'} />
 

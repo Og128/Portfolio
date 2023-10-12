@@ -32,8 +32,10 @@ function Project() {
                             <img src={workImg} alt={t(`${workDetails}.text`)} />
                         </div>
                         <div className="project-link">
-                            <Tags tags={'GitHub'} />
-                            <Tags tags={'Website'} />
+                            <a href={t(`${workDetails}.github`)}>
+                                <Tags tags={t(`${workDetails}.tag1`)} /> </a>
+                            <a href={t(`${workDetails}.website`)}>
+                                <Tags tags={t(`${workDetails}.tag2`)}/></a>
                         </div>
                     </div>
                 </div>

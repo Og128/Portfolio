@@ -14,16 +14,24 @@
         height: 60px;
         border-radius: 16px;
     }
+    @media (max-width:500px) {
+        background-color: var(--bg-comp-theme);
+        border-radius: 10px;
+        width: 80px;
+    }
 
     .menu-title {
         margin-top: 10px;
         font-size: 12px;
         font-weight: 600px;
-        color: #000;
+        color: var(--text-theme);
     }
 
     &:hover {
         cursor: pointer;
-        background: linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+        background: var(--gradient);
+    }
+    &:active{
+        background: var(--gradient);
     }
 }

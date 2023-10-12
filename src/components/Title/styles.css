@@ -20,7 +20,7 @@
         width: 350px;
         height: 2px;
         color: red;
-        background: linear-gradient(#FE9119, #ED250A);
+        background: var(--gradient);
         margin: auto 0px;
         @media (max-width:750px) {
             display: none;

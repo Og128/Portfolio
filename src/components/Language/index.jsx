@@ -13,8 +13,8 @@ function LanguageToggle() {
 
   return (
     <>
-      <div className='btn-lang' onClick={toggleLanguage}>
-        <span className={i18n.language === 'en' ? '' : 'marked'}>FR</span>/<span className={i18n.language === 'en' ? 'marked' : ''}>ENG</span></div>
+      <div className={`btn-lang ${i18n.language === 'en' ? 'en' : 'fr'}`} onClick={toggleLanguage}>
+        </div>
     </>
   );
 }
