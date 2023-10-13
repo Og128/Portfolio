@@ -4,7 +4,7 @@
         "cards":{
             "card1":{
             "title" : "Téléphone",
-            "text" :"+23306587"
+            "text" :"+33 623306587"
             },
             "card2":{
                 "title":"E-mail",
@@ -16,7 +16,7 @@
             "name":"Nom",
             "email": "E-mail",
             "message" : "Message",
-            "success":"Merci pour votre message! Nous vous répondrons sous peu."
+            "success":"Merci pour votre message! Je vous répondrai aussi vite que possible"
         }
     }
 }
