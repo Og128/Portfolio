@@ -39,13 +39,13 @@ function Contact() {
                             </div>
                             <div className="contact-line"></div>
                             <div className="email">
-                                <label for="email">{t(`${currentNamespace}:contact.form.email`)} :</label>
+                                <label htmlFor="email">{t(`${currentNamespace}:contact.form.email`)} :</label>
                                 <input type="email" id="email" name="email" required />
                                 <ValidationError prefix="Email" field="email" errors={state.errors} />
                             </div>
                             <div className="contact-line"></div>
                             <div className="text">
-                                <label for="message">{t(`${currentNamespace}:contact.form.message`)} :</label>
+                                <label htmlFor="message">{t(`${currentNamespace}:contact.form.message`)} :</label>
                                 <textarea id="message" name="message" rows="1" cols="25" required></textarea>
                                 <ValidationError prefix="Message" field="message" errors={state.errors} />
                             </div>

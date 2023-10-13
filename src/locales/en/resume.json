@@ -15,7 +15,8 @@
                 "6": "MongoDB",
                 "7": "English",
                 "8": "French",
-                "9": "Hardware"
+                "9": "Hardware",
+                "10":"Agile"
             }
         },
         "cards": {
@@ -30,14 +31,14 @@
                 "textcard": "OpenClassRooms, France"
             },
             "card3": {
-                "year": "2015-2022",
+                "year": "2022-2022",
                 "titlecard": "Delivery",
                 "textcard": "Direct Transport, Cavaillon, France"
             },
             "card4": {
-                "year": "2022-2023",
-                "titlecard": "No idéa",
-                "textcard": "Still no idea what to put there, sowy"
+                "year": "2015-2019",
+                "titlecard": "Order-picker in extreme cold (-25°C)",
+                "textcard": "Le relais d'or Miko, Rousset, France"
             }
         }
     }
