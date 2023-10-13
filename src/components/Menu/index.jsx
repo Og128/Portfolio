@@ -9,19 +9,23 @@ function Menu() {
 
     const { t, i18n } = useTranslation();
     const currentNamespace =
-        i18n.language === 'en' ? 'transTextEN'  : 'transTextFR';
+        i18n.language === 'en' ? 'transTextEN' : 'transTextFR';
     return (
         <div className='menu-container'>
             <Link to="/" className='link-menu'> <Icons
+                color={{ color: 'var(--text-theme)' }}
                 icon={faHouse}
                 title={t(`${currentNamespace}:accueil.info.icons.home`)} /> </Link>
             <Link to="/resume" className='link-menu'> <Icons
+                color={{ color: 'var(--text-theme)' }}
                 icon={faNewspaper}
                 title={t(`${currentNamespace}:accueil.info.icons.resume`)} /> </Link>
             <Link to="/work" className='link-menu'> <Icons
+                color={{ color: 'var(--text-theme)' }}
                 icon={faBriefcase}
-                title={t(`${currentNamespace}:accueil.info.icons.work`)}  /> </Link>
+                title={t(`${currentNamespace}:accueil.info.icons.work`)} /> </Link>
             <Link to="/contact" className='link-menu'><Icons
+                color={{ color: 'var(--text-theme)' }}
                 icon={faAddressBook}
                 title={t(`${currentNamespace}:accueil.info.icons.contact`)} /> </Link>
         </div>

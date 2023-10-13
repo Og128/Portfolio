@@ -15,7 +15,8 @@
         "form":{
             "name":"Nom",
             "email": "E-mail",
-            "message" : "Message"
+            "message" : "Message",
+            "success":"Merci pour votre message! Nous vous répondrons sous peu."
         }
     }
 }
