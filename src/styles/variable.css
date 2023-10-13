@@ -53,9 +53,9 @@
     --text-work-title-theme: rgba(233, 211, 211, 0.5);
     --icon-theme: #353535;
     --info-theme: rgb(179, 163, 163);
-    --card-theme: #572626;
+    --card-theme: #2e1a00;
     --card-theme-snd: #252525;
-    --box-shadow:0, 0, 0, 0.25;
+    --box-shadow:178, 159, 148;
     --gradient:linear-gradient(to right, #603813, #b29f94);
     --gradient-info:#603813;
     --gradient-infos:#b29f94;

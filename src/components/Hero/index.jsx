@@ -4,14 +4,25 @@ import { faLocationDot, faMobileScreen, faEnvelope, faDownload } from '@fortawes
 import { faFacebookF, faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Socialink from '../Socialink';
-import Portrait from '../../assets/portraitanon.png'
+import Portrait from '../../assets/portrait.webp'
 import { useTranslation } from 'react-i18next';
+import Encv from '../../assets/CV_EN_OLIVIER_GAUTHERON.pdf'
+import Frcv from '../../assets/CV_FR_OLIVIER_GAUTHERON.pdf'
 
 function Hero() {
 
     const { t, i18n } = useTranslation();
     const currentNamespace =
         i18n.language === 'en' ? 'transTextEN' : 'transTextFR';
+
+    const downloadResume = () => {
+        const resumePath =  i18n.language === 'en' ? Encv : Frcv
+        console.log(resumePath)
+        const link = document.createElement('a');
+        link.href = resumePath;
+        link.download = 'CV_OLIVIER_GAUTHERON.pdf';
+        link.click();
+    };
 
     return (
         <div className="container-hero">
@@ -59,7 +70,7 @@ function Hero() {
                             details={'Tavernes, France'} />
 
                     </div>
-                    <div className='btn-dl'>
+                    <div className='btn-dl' onClick={downloadResume}>
                         <FontAwesomeIcon icon={faDownload} />
                         <p>{t(`${currentNamespace}:accueil.info.hero.load`)}</p>
                     </div>
