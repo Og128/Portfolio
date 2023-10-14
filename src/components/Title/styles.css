@@ -2,6 +2,7 @@
 
 .title-separator {
     display: flex;
+    animation: var(--animation);
 
     .section-title {
         color: var(--text-theme);

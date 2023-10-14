@@ -28,7 +28,7 @@ function Work() {
             <Title title={t(`${currentNamespace}:project.title`)} />
             <div className="work-container">
                 {projectDetails.map((project) => (
-                    <Link to={`/work/${project.id}`} key={project.id} className="link-work">
+                    <Link to={`/work/${project.id}`} key={project.id} className="link-work" >
                         <Workcard image={IMAGES[`${project.id}banner`]} title={project.title} text={project.text} />
                     </Link>
                 ))}

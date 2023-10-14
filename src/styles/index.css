@@ -67,4 +67,9 @@ textarea {
 
 a{
   text-decoration: none;
+  @media (max-width:750px){
+    &:hover{
+      transform: scale(0.96);
+    }
+  }
 }

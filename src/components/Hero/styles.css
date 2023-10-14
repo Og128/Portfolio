@@ -102,8 +102,16 @@
                 background: var(--gradient);
                 &:hover{
                     cursor: pointer;
+                    @media (max-width:750px) {
+                        transform: scale(0.96);
+                    }
                 }
-
+                &:active{
+                    @media (min-width:750px) {
+                        transform: scale(0.96);
+                        transition: all 0.1s;
+                    }
+                }
                 p {
                     font-size: 12px;
                     font-weight: 600;

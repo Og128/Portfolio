@@ -9,10 +9,12 @@
     position: relative;
     overflow: auto;
     scrollbar-width: none;
+
     @media (max-width:1050px) {
         width: 90%;
-        margin:auto;
+        margin: auto;
     }
+
     @media (max-width:750px) {
         min-width: 350px;
     }

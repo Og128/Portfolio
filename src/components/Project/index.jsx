@@ -17,6 +17,9 @@ function Project() {
     let workDetails = `${currentNamespaceProjet}:project.works.${id}`;
     let workImg = IMAGES[`${id}`];
 
+    let noRef = id === 'work4' ? '' : 'noreferrer';
+    let blank = id === 'work4' ? '' : '_blank';
+
     return (
         <>
             <Title title={t(`${currentNamespaceProjet}:project.title`)} />
@@ -32,9 +35,9 @@ function Project() {
                             <img src={workImg} alt={t(`${workDetails}.text`)} />
                         </div>
                         <div className="project-link">
-                            <a href={t(`${workDetails}.github`)}>
+                            <a href={t(`${workDetails}.github`)} rel='noreferrer' target='_blank'>
                                 <Tags tags={t(`${workDetails}.tag1`)} /> </a>
-                            <a href={t(`${workDetails}.website`)}>
+                            <a href={t(`${workDetails}.website`)} rel={noRef} target={blank}>
                                 <Tags tags={t(`${workDetails}.tag2`)}/></a>
                         </div>
                     </div>

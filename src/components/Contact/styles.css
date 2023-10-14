@@ -4,20 +4,23 @@
     margin: 30px 72px 0 72px;
     display: flex;
     flex-direction: column;
+    animation: var(--animation);
+
     @media (max-width:750px) {
-        margin:0 20px 10px 20px;
+        margin: 0 20px 10px 20px;
     }
 
     .info {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 25px;
-        gap:20px;
+        gap: 20px;
+
         @media (max-width:750px) {
-           grid-template-columns: 1fr;
-           min-width: 300px;
-           margin:auto;
-           margin-bottom:25px;
+            grid-template-columns: 1fr;
+            min-width: 300px;
+            margin: auto;
+            margin-bottom: 25px;
         }
     }
 
@@ -46,7 +49,8 @@
                 margin-top: 20px;
                 margin-left: 100px;
             }
-            & div:nth-child(2){
+
+            & div:nth-child(2) {
                 width: 62%;
                 margin-left: 80px;
             }
@@ -62,9 +66,11 @@
                 & label {
                     margin-right: 25px;
                 }
+
                 & input {
-                    color:#000;
+                    color: #000;
                     text-wrap: wrap;
+
                     @media (max-width:500px) {
                         width: 30%;
                     }
@@ -84,17 +90,27 @@
 
                 &:hover {
                     cursor: pointer;
+                    @media (max-width:750px) {
+                        transform: scale(0.96);
+                    }
+                }
+                &:active{
+                    @media (min-width:750px) {
+                        transform: scale(0.96);
+                        transition: all 0.1s;
+                    }
                 }
             }
         }
     }
 }
-.success{
+
+.success {
     margin-top: 50px;
     font-size: 25px;
 }
 
 textarea {
     background-color: #F8FBFB;
-    overflow-x: auto; 
+    overflow-x: auto;
 }

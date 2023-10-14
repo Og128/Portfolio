@@ -17,7 +17,7 @@ export default function Header({ onToggle }) {
     };
 
     let iconTheme = theme ==='light' ? solidLight : regularLight;
-    let colorTheme = theme === 'dark' ? 'yellow' : 'black'
+    let colorTheme = theme === 'dark' ? '#FF9C1A' : '#000'
 
     return (
         <header className="navigation-bar">
