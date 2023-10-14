@@ -33,10 +33,4 @@
         cursor: pointer;
         background: var(--gradient);
     }
-    &:active{
-        @media (min-width:750px) {
-            transform: scale(0.96);
-            transition: all 0.1s;
-        }
-    }
 }

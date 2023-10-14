@@ -70,6 +70,13 @@ a{
   @media (max-width:750px){
     &:hover{
       transform: scale(0.96);
+      transition: all 0.1s;
+    }
+  }
+  @media (min-width:750px) {
+    &:active{
+      transform: scale(0.96);
+      transition: all 0.1s;
     }
   }
 }
