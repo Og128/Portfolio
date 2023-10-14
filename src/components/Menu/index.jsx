@@ -13,8 +13,8 @@ function Menu() {
         const toTheTop= () => {
             if (window.matchMedia('(max-width: 500px)').matches) {
                 window.scrollTo({
-                  top: 0,
-                  behavior: 'smooth',
+                  top: 100,
+                  behavior: 'instant',
                 });
               }
             };
