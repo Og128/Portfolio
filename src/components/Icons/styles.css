@@ -9,11 +9,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     @media (max-width:750px) {
         width: 60px;
         height: 60px;
         border-radius: 16px;
     }
+
     @media (max-width:500px) {
         background-color: var(--bg-comp-theme);
         border-radius: 10px;
@@ -29,9 +31,6 @@
 
     &:hover {
         cursor: pointer;
-        background: var(--gradient);
-    }
-    &:active{
         background: var(--gradient);
     }
 }

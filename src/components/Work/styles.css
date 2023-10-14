@@ -1,8 +1,12 @@
+@import url('../../styles/variable.css');
+
 .work-container {
     margin: 30px 72px 0 72px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:30px;
+    animation: var(--animation);
+
     @media (max-width:750px) {
         grid-template-columns: 1fr;
         place-items: center;

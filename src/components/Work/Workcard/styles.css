@@ -6,6 +6,10 @@
     border-radius: 8px;
     background-color: var(--card-theme);
     max-width: 410px;
+    transition: transform 0.2s;
+    &:active{
+        transform: scale(0.97);
+    }
     @media (max-width:750px) {
        width: 100%;
     }

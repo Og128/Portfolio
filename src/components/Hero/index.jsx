@@ -33,19 +33,19 @@ function Hero() {
                 <p className='me-name'>Olivier Gautheron</p>
                 <p className='work-title'>{t(`${currentNamespace}:accueil.info.hero.title`)}</p>
                 <div className="info-link">
-                    <a href={t(`${currentNamespace}:accueil.info.link.linked`)}>
+                    <a href={t(`${currentNamespace}:accueil.info.link.linked`)} rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faLinkedin}
                             color={{ color: '#0077B5' }} /></a>
-                    <a href={t(`${currentNamespace}:accueil.info.link.face`)}>
+                    <a href={t(`${currentNamespace}:accueil.info.link.face`)} rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faFacebookF}
                             color={{ color: '#1877F2' }} /></a>
-                    <a href={t(`${currentNamespace}:accueil.info.link.twitter`)}>
+                    <a href={t(`${currentNamespace}:accueil.info.link.twitter`)} rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faTwitter}
                             color={{ color: '#1DA1F2' }} /></a>
-                    <a href={t(`${currentNamespace}:accueil.info.link.github`)}>
+                    <a href={t(`${currentNamespace}:accueil.info.link.github`)} rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faGithub}
                             color={{ color: 'var(--text-theme)' }} /></a>

@@ -4,8 +4,10 @@
     display: flex;
     flex-direction: column;
     margin: 0px 70px;
+    animation: var(--animation);
+
     @media (max-width:750px) {
-       margin:0 20px;
+        margin: 0 20px;
     }
 
     .home-text {
@@ -14,6 +16,7 @@
         font-weight: 500;
         line-height: 30px;
         margin-bottom: 30px;
+
         @media (max-width:750px) {
             font-size: 14px;
         }
@@ -47,7 +50,7 @@
                 grid-template-columns: 1fr;
                 grid-template-rows: max-content;
                 place-items: center;
-                margin-bottom:25px;
+                margin-bottom: 25px;
             }
         }
     }
