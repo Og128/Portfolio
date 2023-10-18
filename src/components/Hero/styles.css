@@ -28,8 +28,8 @@
         }
 
         & img {
-            width: inherit;
-            height: inherit;
+            width: 200px;
+            height: 200px;
             image-rendering: optimizeSpeed;
             border-radius: 20px;
         }
