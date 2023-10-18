@@ -30,22 +30,22 @@ function Hero() {
                 <img src={Portrait} alt="Portrait d'Olivier Gautheron" />
             </div>
             <div className="info-me">
-                <p className='me-name'>Olivier Gautheron</p>
+                <h2 className='me-name'>Olivier Gautheron</h2>
                 <p className='work-title'>{t(`${currentNamespace}:accueil.info.hero.title`)}</p>
                 <div className="info-link">
-                    <a href={t(`${currentNamespace}:accueil.info.link.linked`)} rel='noreferrer' target='_blank'>
+                    <a href={t(`${currentNamespace}:accueil.info.link.linked`)} aria-label='linked' rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faLinkedin}
                             color={{ color: '#0077B5' }} /></a>
-                    <a href={t(`${currentNamespace}:accueil.info.link.face`)} rel='noreferrer' target='_blank'>
+                    <a href={t(`${currentNamespace}:accueil.info.link.face`)} aria-label='facebook' rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faFacebookF}
                             color={{ color: '#1877F2' }} /></a>
-                    <a href={t(`${currentNamespace}:accueil.info.link.twitter`)} rel='noreferrer' target='_blank'>
+                    <a href={t(`${currentNamespace}:accueil.info.link.twitter`)} aria-label='twitter' rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faTwitter}
                             color={{ color: '#1DA1F2' }} /></a>
-                    <a href={t(`${currentNamespace}:accueil.info.link.github`)} rel='noreferrer' target='_blank'>
+                    <a href={t(`${currentNamespace}:accueil.info.link.github`)} aria-label='github' rel='noreferrer' target='_blank'>
                         <Socialink
                             icon={faGithub}
                             color={{ color: 'var(--text-theme)' }} /></a>
@@ -57,7 +57,7 @@ function Hero() {
                             icon={faMobileScreen}
                             color={{ color: 'var(--gradient-infos)' }}
                             title={t(`${currentNamespace}:accueil.info.hero.phone`)}
-                            details={'+33 623306587'} />
+                            details={t(`${currentNamespace}:accueil.info.herotext.phone`)} />
                         <Information
                             icon={faEnvelope}
                             color={{ color: 'var(--gradient-info)' }}
@@ -67,7 +67,7 @@ function Hero() {
                             icon={faLocationDot}
                             color={{ color: 'var(--gradient-infos)' }}
                             title={t(`${currentNamespace}:accueil.info.hero.location`)}
-                            details={'Tavernes, France'} />
+                            details={t(`${currentNamespace}:accueil.info.herotext.location`)} />
 
                     </div>
                     <div className='btn-dl' onClick={downloadResume}>

@@ -21,7 +21,7 @@ export default function Header({ onToggle }) {
 
     return (
         <header className="navigation-bar">
-            <div className='logo'>Olivier GAUTHERON</div>
+            <h1 className='logo'>Olivier GAUTHERON</h1>
             <div className='btn-lang-dark'>
                 <LanguageToggle />
                 <div className="dark-light"

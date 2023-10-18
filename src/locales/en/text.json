@@ -19,14 +19,6 @@
             "card4": {
                 "titlecard": "Hobbies",
                 "textcard": "With a passion for high-tech, Formula 1, martial arts competitions as well as electronic sports, I bring a complete set of hobbies that showcase my technical know-how and my team-spirit"
-            },
-            "card5":{
-                "titlecard":"Phone :",
-                "textcard":"+33 623306587"
-            },
-            "card6":{
-                "titlecard":"E-Mail :",
-                "textcard":"gautheron.og@gmail.com"
             }
         },
         "info":{
@@ -43,12 +35,17 @@
                 "location":"Location",
                 "load":"Download resume"
             },
+            "herotext":{
+                "phone":"+66 82-714-3717",
+                "location":"Yen Akat Rd, Chong Nonsi, Bangkok"
+            },
             "link":{
                 "face":"https://www.facebook.com/OgGautheron/",
                 "twitter":"https://twitter.com/OlivierOg128",
                 "linked":"https://www.linkedin.com/in/olivier-gautheron-b055b5269/",
                 "github":"https://github.com/Og128"
             }
-        }
+        },
+        "error":"The page you are looking for is not available"
     }
 }
