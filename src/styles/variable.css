@@ -2,13 +2,13 @@
   --bg-theme: #252525;
   --bg-comp-theme: #000000;
   --text-theme: #fff;
-  --text-work-title-theme: rgba(233, 211, 211, 0.5);
+  --text-work-title-theme: rgb(255, 187, 0);
   --icon-theme: #353535;
   --info-theme: rgb(179, 163, 163);
-  --card-theme: #2e1a00;
+  --card-theme: #621b13;
   --card-theme-snd: #252525;
   --box-shadow:178, 159, 148;
-  --gradient:linear-gradient(to right, #603813, #b29f94);
+  --gradient:linear-gradient(to right, #621b13, #b29f94);
   --gradient-info:#603813;
   --gradient-infos:#b29f94;
 }
@@ -17,7 +17,7 @@
   --bg-theme: #F2F5F9;
   --bg-comp-theme: #FFF;
   --text-theme: #000;
-  --text-work-title-theme: rgba(11, 9, 9, 0.50);
+  --text-work-title-theme: rgba(11, 9, 9);
   --icon-theme: #E1E8EF;
   --info-theme: rgba(26, 16, 3, 0.50);
   --card-theme: #FFEBD1;
@@ -33,7 +33,7 @@
     --bg-theme: #F2F5F9;
     --bg-comp-theme: #FFF;
     --text-theme: #000;
-    --text-work-title-theme: rgba(11, 9, 9, 0.50);
+    --text-work-title-theme: rgba(11, 9, 9);
     --icon-theme: #E1E8EF;
     --info-theme: rgba(26, 16, 3, 0.50);
     --card-theme: #FFEBD1;
@@ -50,13 +50,13 @@
     --bg-theme: #252525;
     --bg-comp-theme: #000000;
     --text-theme: #fff;
-    --text-work-title-theme: rgba(233, 211, 211, 0.5);
+    --text-work-title-theme: rgb(219, 66, 66);
     --icon-theme: #353535;
     --info-theme: rgb(179, 163, 163);
-    --card-theme: #2e1a00;
+    --card-theme: #621b13;
     --card-theme-snd: #252525;
     --box-shadow:178, 159, 148;
-    --gradient:linear-gradient(to right, #603813, #b29f94);
+    --gradient:linear-gradient(to right, #621b13, #b29f94);
     --gradient-info:#603813;
     --gradient-infos:#b29f94;
   }
