@@ -1,4 +1,4 @@
-[data-theme='dark']{
+[data-theme='dark'] {
   --bg-theme: #252525;
   --bg-comp-theme: #000000;
   --text-theme: #fff;
@@ -7,10 +7,10 @@
   --info-theme: rgb(179, 163, 163);
   --card-theme: #621b13;
   --card-theme-snd: #252525;
-  --box-shadow:178, 159, 148;
-  --gradient:linear-gradient(to right, #621b13, #b29f94);
-  --gradient-info:#603813;
-  --gradient-infos:#b29f94;
+  --box-shadow: 178, 159, 148;
+  --gradient: linear-gradient(to right, #621b13, #b29f94);
+  --gradient-info: #603813;
+  --gradient-infos: #b29f94;
 }
 
 [data-theme='light'] {
@@ -22,14 +22,14 @@
   --info-theme: rgba(26, 16, 3, 0.50);
   --card-theme: #FFEBD1;
   --card-theme-snd: #F2F7FC;
-  --box-shadow:0, 0, 0, 0.25;
-  --gradient:linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
-  --gradient-info:#FF9C1A;
-  --gradient-infos:#E80505;
+  --box-shadow: 0, 0, 0, 0.25;
+  --gradient: linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+  --gradient-info: #FF9C1A;
+  --gradient-infos: #E80505;
 }
 
 @media (prefers-color-scheme: light) {
-:root {
+  :root {
     --bg-theme: #F2F5F9;
     --bg-comp-theme: #FFF;
     --text-theme: #000;
@@ -38,10 +38,10 @@
     --info-theme: rgba(26, 16, 3, 0.50);
     --card-theme: #FFEBD1;
     --card-theme-snd: #F2F7FC;
-    --box-shadow:0, 0, 0, 0.25;
-    --gradient:linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
-    --gradient-info:#FF9C1A;
-    --gradient-infos:#E80505;
+    --box-shadow: 0, 0, 0, 0.25;
+    --gradient: linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+    --gradient-info: #FF9C1A;
+    --gradient-infos: #E80505;
   }
 }
 
@@ -55,25 +55,27 @@
     --info-theme: rgb(179, 163, 163);
     --card-theme: #621b13;
     --card-theme-snd: #252525;
-    --box-shadow:178, 159, 148;
-    --gradient:linear-gradient(to right, #621b13, #b29f94);
-    --gradient-info:#603813;
-    --gradient-infos:#b29f94;
+    --box-shadow: 178, 159, 148;
+    --gradient: linear-gradient(to right, #621b13, #b29f94);
+    --gradient-info: #603813;
+    --gradient-infos: #b29f94;
   }
 }
 
 
 @keyframes fadeAndMove {
   0% {
-      opacity: 0;
-      transform: translateX(-10px);;
+    opacity: 0;
+    transform: translateX(-10px);
+    ;
   }
+
   100% {
-      opacity: 1;
-      transform: translateY(0px);
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
 
-:root{
-  --animation:fadeAndMove 0.5s cubic-bezier(.38,.24,.24,1.06);
+:root {
+  --animation: fadeAndMove 1s cubic-bezier(.38, .24, .24, 1.06);
 }
