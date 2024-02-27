@@ -39,20 +39,20 @@
                 "tag2":"Présentation"
             },
             "work4": {
-                "title": "Site en construction",
-                "text": "Site web en CONSTRUCTION de comparaison des performances de composant informatique",
-                "textdesc": "Le but de ce projet, encore en construction, sera de présenter aux acheteurs de carte graphique la possibilité d'utiliser un outil qui leur permettra de comparer filtrer et trier les cartes en fonction de critères tels que la puissance, le prix, la consommation électrique, et bien plus encore.",
-                "textlearn": "Choisir la bonne carte graphique peut être une tâche complexe, surtout avec la multitude de modèles disponibles sur le marché. C'est pour cela qu'en tant que passionné dans ce domaine, la création de ce site me tient particulièrement à coeur. L'une des raisons pour lesquelles j'ai appris le développement web est la création d'un tel site. ",
-                "textcardhard":"Pas encore réalisé",
-                "textcardsolus":"Pas encore réalisé",
+                "title": "David Rodriguez studio",
+                "text": "Réalisation d'un Portfolio en ligne pour un artiste mettant ses oeuvres en exposition.",
+                "textdesc": "Fusion provocatrice de la tradition et de la rébellion. Exploration de la représentation sociétale, de l'identité personnelle et de l'interaction entre l'histoire de l'art et l'héritage culturel.",
+                "textlearn": "David Rodriguez vous invite cordialement à explorer ses œuvres d'art captivantes et ses expositions présentées sur son site web. ",
+                "textcardhard":"HTML / CSS, React JS, Framer-motion, Embla-Carousel, react-pdf, Web Hosting, Hostinger",
+                "textcardsolus":"Communication client, Collaboration avec l'UX designer, Résolutions des bugs, Compromis",
                 "github":"https://github.com/Og128",
-                "website":"",
+                "website":"https://davidrodriguez.studio",
                 "tag1":"Github",
-                "tag2":"Live Demo"
+                "tag2":"website"
             },
             "titlecard":{
-                "titlehard":"Difficulté rencontré",
-                "titlesolu":"Résolution des problèmes"
+                "titlehard":"Langage, librarie, Module",
+                "titlesolu":"Compétences générales"
             }
         }
     }

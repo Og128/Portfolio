@@ -39,20 +39,20 @@
                 "tag2":"Presentation(FR)"
             },
             "work4": {
-                "title": "Website in progress",
-                "text": "Website under CONSTRUCTION for comparing computer hardware performances",
-                "textdesc": "The goal of this project, still under construction, will be to present to graphics card buyers the possibility of using a tool that will allow them to compare, filter and sort cards based on criteria such as power, price, power consumption, and much more.",
-                "textlearn": "Choosing the right graphics card can be a complex task, especially with the multitude of models available on the market. This is why, as a enthusiast in this field, the creation of this site is particularly important to me to heart. One of the reasons I learned web development is to create such website.",
-                "textcardhard":"Not yet done",
-                "textcardsolus":"Not yet done",
+                "title": "David Rodriguez Studio",
+                "text": "Creation of an online portfolio for an artist exhibiting his work.",
+                "textdesc": "Provocative Fusion of Tradition and Rebellion. Exploring societal representation, personal identity, and the interplay between art history and cultural heritage.",
+                "textlearn": "David Rodriguez cordially invites you to explore his captivating artworks and exhibitions showcased on his website.",
+                "textcardhard":"HTML / CSS, React JS, Framer-motion, Embla-Carousel, react-pdf, Web Hosting, Hostinger",
+                "textcardsolus":"Customer communication, Collaboration with UX designer, Bug resolution, Compromise",
                 "github":"https://github.com/Og128",
-                "website":"",
+                "website":"https://davidrodriguez.studio",
                 "tag1":"Github",
-                "tag2":"Live Demo"
+                "tag2":"Website"
             },
             "titlecard": {
-                "titlehard": "Problem encounter",
-                "titlesolu": "Problem resolution"
+                "titlehard": "Language, Library, Module",
+                "titlesolu": "General skills"
             }
         }
     }

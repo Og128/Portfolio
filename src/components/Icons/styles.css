@@ -29,7 +29,7 @@
         color: var(--text-theme);
     }
 
-    &:hover {
+    &:active {
         cursor: pointer;
         background: var(--gradient);
     }

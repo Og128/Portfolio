@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Socialink from '../Socialink';
 import Portrait from '../../assets/portrait.webp'
 import { useTranslation } from 'react-i18next';
-import Encv from '../../assets/CV_EN_OLIVIER_GAUTHERON.pdf'
+import Encv from '../../assets/Resume_OLIVIER_GAUTHERON.pdf'
 import Frcv from '../../assets/CV_FR_OLIVIER_GAUTHERON.pdf'
 
 function Hero() {
@@ -17,10 +17,9 @@ function Hero() {
 
     const downloadResume = () => {
         const resumePath =  i18n.language === 'en' ? Encv : Frcv
-        console.log(resumePath)
         const link = document.createElement('a');
         link.href = resumePath;
-        link.download = 'CV_OLIVIER_GAUTHERON.pdf';
+        link.download = 'Resume_OLIVIER_GAUTHERON.pdf';
         link.click();
     };
 

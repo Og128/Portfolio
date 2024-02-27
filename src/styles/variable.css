@@ -2,15 +2,15 @@
   --bg-theme: #252525;
   --bg-comp-theme: #000000;
   --text-theme: #fff;
-  --text-work-title-theme: rgb(255, 187, 0);
+  --text-work-title-theme: #cce6f4;
   --icon-theme: #353535;
   --info-theme: rgb(179, 163, 163);
-  --card-theme: #621b13;
+  --card-theme: #c00000af;
   --card-theme-snd: #252525;
   --box-shadow: 178, 159, 148;
-  --gradient: linear-gradient(to right, #621b13, #b29f94);
-  --gradient-info: #603813;
-  --gradient-infos: #b29f94;
+  --gradient: linear-gradient(91deg, rgb(117, 6, 6), #c00000af 108%);
+  --gradient-info: #1da1f2;
+  --gradient-infos: #c00000af;
 }
 
 [data-theme='light'] {
@@ -50,15 +50,15 @@
     --bg-theme: #252525;
     --bg-comp-theme: #000000;
     --text-theme: #fff;
-    --text-work-title-theme: rgb(219, 66, 66);
+    --text-work-title-theme: #cce6f4;
     --icon-theme: #353535;
     --info-theme: rgb(179, 163, 163);
-    --card-theme: #621b13;
+    --card-theme: #c00000af;
     --card-theme-snd: #252525;
     --box-shadow: 178, 159, 148;
-    --gradient: linear-gradient(to right, #621b13, #b29f94);
-    --gradient-info: #603813;
-    --gradient-infos: #b29f94;
+    --gradient: linear-gradient(91deg, rgb(117, 6, 6), #c00000af 108%);
+    --gradient-info: #1da1f2;
+    --gradient-infos: #c00000af;
   }
 }
 
